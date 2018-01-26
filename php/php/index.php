@@ -3,7 +3,7 @@
     <title>Rémi Coulombe</title>
 
     <meta charset="utf-8" />
-
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="../style/reset.css" />
     <link rel="stylesheet" type="text/css" href="../style/style.css" />
 </head>
