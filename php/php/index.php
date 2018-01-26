@@ -1,5 +1,5 @@
 <?php
 
-echo "Hello World!";
+echo "a bin criss";
 
 ?>
