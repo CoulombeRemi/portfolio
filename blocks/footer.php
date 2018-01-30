@@ -1,11 +1,10 @@
 <footer>
-    <ul>
+    <ul class="infos">
         <li><a href="#">rem.coulombe@gmail.com</a></li>
         <li><a href="#">(514) 572-6773</a></li>
     </ul>
-
-    <ul>
-        <li><img src="https://soundcloud.com/coulombe36"/></li>
-        <li><img src="https://vimeo.com/user44672269"/></li>
+    <ul class="icons">
+        <a href="https://soundcloud.com/coulombe36"> <i class="fa fa-soundcloud"></i></a>
+        <a href="https://vimeo.com/user44672269"> <i class="fa fa-vimeo"></i></a>
     </ul>
 </footer>
