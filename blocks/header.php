@@ -6,5 +6,13 @@
         <li><a href="#">link 3</a></li>
         <li><a href="#">link 4</a></li>
     </ul>
-    <button class="btn-burger">dank</button>
+
+    <div class="btn-burger">
+        <div class="hamburger" id="hamburger-act">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+    </div>
+
 </header>
