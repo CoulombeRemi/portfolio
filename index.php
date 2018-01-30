@@ -1,11 +1,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>Rémi Coulombe</title>
+    <title>Rï¿½mi Coulombe</title>
 
     <meta charset="utf-8" />
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="../style/reset.css" />
-    <link rel="stylesheet" type="text/css" href="../style/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/style/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/style/style.css" />
 </head>
 <body>
     <?php include("blocks/header.php") ?>

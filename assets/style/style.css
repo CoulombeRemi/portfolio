@@ -255,19 +255,16 @@ textarea:focus {
 /*------------------------------------*\
     Header
 \*------------------------------------*/
-
 header {
-    display: block;
-    position: fixed;
-    width: 100%;
-    height: 4.5em;
-    background-color: DodgerBlue;
+	position: fixed;
+	display: flex;
+	width: 100%;
+	height: 4.5em;
+	background-color: DodgerBlue;
 }
 header .menu {
-    display: flex;
-}
-header .menu li:first-child {
-    margin-right: auto;
+	display: flex;
+	margin-left: auto;
 }
 header .menu li a {
 	margin: 10px;
@@ -279,6 +276,14 @@ header .menu .logo{
 	color: #000;
 }
 
+
+/*--------------------------------*\
+	Main
+\*--------------------------------*/
+
+main {
+	background-color : #00FF72;
+}
 
 /*------------------------------------*\
     Footer
@@ -303,7 +308,9 @@ footer {
 
 }
 @media only screen and (min-width:768px) {
-
+	header .btn-burger{
+		display: none;
+	}
 }
 @media only screen and (min-width:1024px) {
 
