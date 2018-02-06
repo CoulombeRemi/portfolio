@@ -2,8 +2,8 @@
 <div  class="container">
         <a href="#" class="logo">Logo</a>
         <ul class="menu">
-            <li><a href="#">link 1</a></li>
-            <li><a href="#">link 2</a></li>
+            <li><a href="/musique">Musique</a></li>
+            <li><a href="#">Autres Projets</a></li>
             <li><a href="#">À Propos</a></li>
             <li><a href="/contact">Contact</a></li>
         </ul>

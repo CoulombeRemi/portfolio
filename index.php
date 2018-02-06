@@ -31,7 +31,8 @@
 </head>
 <body>
     <?php include("blocks/header.php") ?>
-    <main></main>
+    <main>
+    </main>
     <?php include("blocks/footer.php") ?>
 </body>
 </html>

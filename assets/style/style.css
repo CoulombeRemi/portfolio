@@ -392,6 +392,26 @@ main .container .info-contact .info-liste li{
 main .container .info-contact .info-liste li img{
 	padding-right: 10px;
 }
+/*musique*/
+main .container .musique-frame .ul-musique{
+	display: flex;
+	flex-direction: column;
+}
+main .container .musique-frame .ul-musique li{
+	position: relative;
+	padding-top: 100%;
+	display: flex;
+}
+main .container .musique-frame .ul-musique li iframe{
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 20px;
+}
 /*------------------------------------*\
     Footer
 \*------------------------------------*/
@@ -445,6 +465,9 @@ footer ul{
 		padding-right: 200px;
 		padding-bottom: 20px;
 		margin-bottom: 20px;
+	}
+	main .container .musique-frame .ul-musique{
+		flex-direction: row;
 	}
 	/*--footer--*/
 	footer{
