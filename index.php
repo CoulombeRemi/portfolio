@@ -1,3 +1,17 @@
+
+<?php
+    /*
+    Redirige sur le bon url quand une autre personne redirige
+    mon site
+    */
+    if ($_SERVER["SERVER_NAME"] != "remi.forsale") {
+        header('Location: https://remi.forsale');
+        die();
+    }
+
+?>
+
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Rémi Coulombe</title>
