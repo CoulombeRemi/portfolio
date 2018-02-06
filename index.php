@@ -4,10 +4,10 @@
     Redirige sur le bon url quand une autre personne redirige
     mon site
     */
-    if ($_SERVER["SERVER_NAME"] != "remi.forsale") {
+    /*if ($_SERVER["SERVER_NAME"] != "remi.forsale" || $_SERVER["SERVER_NAME"] != "localhost" || $_SERVER["SERVER_NAME"] != "127.0.0.1") {
         header('Location: https://remi.forsale');
         die();
-    }
+    }*/
 
 ?>
 
