@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="assets/style/style.css" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <!--SCRIPT-->
-    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="assets/js/main.js"></script>
     
 </head>
