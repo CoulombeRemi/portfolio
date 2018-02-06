@@ -5,7 +5,7 @@
             <li><a href="#">link 1</a></li>
             <li><a href="#">link 2</a></li>
             <li><a href="#">À Propos</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="/contact">Contact</a></li>
         </ul>
 
         <div class="btn-burger">
