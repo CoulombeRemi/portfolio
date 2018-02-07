@@ -30,7 +30,7 @@
                     // on passe tous les musiques dans la boucle et on change le id du URL avec le bon id
                     // on crer un li avec le iframe a l'interieur
                     foreach($arrayMusique["track-id"] as $musique){ ?>
-                        <li>
+                        <li class="tracks">
                             <iframe scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/<?php echo $musique["id"] ?>&amp;color=%2300ff9d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
                         </li>
                     <?php } ?>

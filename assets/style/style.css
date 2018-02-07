@@ -398,18 +398,18 @@ main .container .musique-frame .ul-musique{
 	flex-direction: column;
 	align-items: center;
 }
-main .container .musique-frame .ul-musique li{
+main .container .musique-frame .ul-musique .tracks{
 	position: relative;
 	display: flex;
 	max-width: 320px;
     width: 100%;
 }
-main .container .musique-frame .ul-musique li::before{
+main .container .musique-frame .ul-musique .tracks::before{
 	padding-top: 100%;
 	display: block;
 	content: "";
 }
-main .container .musique-frame .ul-musique li iframe{
+main .container .musique-frame .ul-musique .tracks iframe{
 	position: absolute;
 	right: 0;
 	left: 0;
@@ -462,9 +462,6 @@ footer ul{
 		display: none;
 	}
 	/*--Main--*/
-	main{
-		
-	}
 	main .container h1{
 		text-align: start;
 		border-bottom: 2px solid #444;
@@ -473,10 +470,18 @@ footer ul{
 		padding-bottom: 20px;
 		margin-bottom: 20px;
 	}
+	main .container .musique-frame{
+		padding-top: 20px;
+	}
 	main .container .musique-frame .ul-musique{
 		flex-direction: row;
 		align-items: start;
 		justify-content: space-between;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	main .container .musique-frame .ul-musique .tracks{
+		max-width: 260px;
 	}
 
 	/*--footer--*/
