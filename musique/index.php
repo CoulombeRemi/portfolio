@@ -1,5 +1,5 @@
 <?php 
-if(file_exists("settings.php")){include("../settings.php");}
+if(file_exists("../settings.php")){include("../settings.php");}
 ?>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
