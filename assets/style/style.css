@@ -392,6 +392,7 @@ main .container h1{
 	text-align: center;
 	margin-bottom: 40px;
 }
+/*Contact*/
 main .container .info-contact .info-liste{
 	display: flex;
 	flex-direction: column;
@@ -483,6 +484,7 @@ footer ul{
 		padding-bottom: 20px;
 		margin-bottom: 20px;
 	}
+	/*musique*/
 	main .container .musique-frame{
 		padding-top: 20px;
 	}

@@ -1,10 +1,14 @@
+<?php 
+if(file_exists("settings.php")){include("../settings.php");}
+?>
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Rémi Coulombe</title>
 
     <!--META-->
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <!--LINK-->
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="../assets/style/reset.css" />
