@@ -34,12 +34,16 @@ if(file_exists("../settings.php")){include("../settings.php");}
                 </ul>
                 <ul class="info-exSite">
                     <li>
-                        <img src="../assets/img/soundcloud.svg" />    
-                        <p>Soundcloud</p>
+                        <a href="https://soundcloud.com/coulombe36">
+                            <img src="../assets/img/soundcloud.svg" />    
+                            <p>Soundcloud</p>
+                        </a>  
                     </li>
                     <li>
-                        <img src="../assets/img/vimeo.svg" />    
-                        <p>Vimeo</p>
+                        <a href="https://vimeo.com/user44672269">
+                            <img src="../assets/img/vimeo.svg" />    
+                            <p>Vimeo</p>
+                        </a>
                     </li>
                     <li>
                     

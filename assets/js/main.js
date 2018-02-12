@@ -2,6 +2,6 @@
 // Btn-burger
 $(document).ready(function(){
     $(".hamburger").click(function(){
-      $(this).toggleClass("is-active");
+      $("header").toggleClass("is-active");
     });
   });
