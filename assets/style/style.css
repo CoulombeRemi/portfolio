@@ -330,10 +330,10 @@ header .menu .logo{
 }
 .hamburger .line{
 	width: 50px;
-	height: 5px;
-	background-color: #ecf0f1;
+	height: 2px;
+	background-color: #444;
 	display: block;
-	margin: 8px auto;
+	margin: 11px auto;
 	-webkit-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
