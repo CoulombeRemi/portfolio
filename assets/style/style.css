@@ -455,11 +455,6 @@ footer .infos{
 footer ul{
 	padding: 20px;
 }
-
-
-
-
-
 /*------------------------------------*\
     Responsive
 \*------------------------------------*/
@@ -551,6 +546,10 @@ footer ul{
 		display: block;
 	}
 
+
+
+	/*-- POP UP --*/
+
 }
 @media only screen and (min-width:1024px) {
 
@@ -563,10 +562,49 @@ footer ul{
 }
 @media only screen and (-webkit-min-device-pixel-ratio:1.5),
 	   only screen and (min-resolution:144dpi) {
-
 }
 
 
+/*------------------------------------*\
+    POP UP Musique
+\*------------------------------------*/
+#popUp {
+    display: none;
+    position: fixed;
+    z-index: 15;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content/Box */
+.popUp-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+	width: 80%;
+	height: 60%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 
 

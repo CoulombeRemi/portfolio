@@ -13,6 +13,18 @@ if(file_exists("../settings.php")){include("../settings.php");}
         <div class="container">
             <h1>Musique</h1>
             <div class="musique-frame">
+            
+
+            <button id="popBtn">Open Modal</button>
+            <div id="popUp">
+                <div class="popUp-content">
+                    <span class="close">&times;</span>
+                    <p>Some text in the Modal..</p>
+                </div>
+            </div>
+            
+
+
                 <ul class="ul-musique">
                 <!-- On va chercher le fichier JSON -->
                 <?php $jsonString = file_get_contents("../assets/track-id.json");
