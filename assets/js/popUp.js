@@ -7,14 +7,18 @@ window.onload = function () {
         btns[i].onclick = function(ev){
             //ev.target.children[0].style.display = "block";
             ev.target.parentElement.children[0].style.display = "block";
-            console.log(ev.target.parentElement.children[0]);
-            console.log( ev.target.parentElement.children[2]);
+
+
+            var iFrame = ev.target.parentElement.children[0].children[0].children[2].children[0];
+            iFrame.setAttribute("src", iFrame.dataset.src);
             
             ev.target.parentElement.children[0].children[0].children[0].onclick = function(){
                 ev.target.parentElement.children[0].style.display = "none";
+                iFrame.setAttribute("src", "");
             }
             ev.target.parentElement.children[0].onclick = function(){
                 ev.target.parentElement.children[0].style.display = "none";
+                iFrame.setAttribute("src", "");
             }
             ev.target.parentElement.children[0].children[0].onclick = function(cancelClick){
                 cancelClick.stopPropagation();
@@ -22,8 +26,8 @@ window.onload = function () {
                 
             }
             
+            
         }
-        
     }
     // btn.onclick = function() {
     //     modal.style.display = "block";
