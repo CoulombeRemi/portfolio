@@ -429,13 +429,22 @@ main .container .musique-frame .ul-musique .tracks::before{
 	content: "";
 }
 main .container .musique-frame .ul-musique .tracks iframe{
-	position: absolute;
 	right: 0;
 	left: 0;
 	top: 0;
 	bottom: 0;
 	width: 100%;
-	height: 100%;
+	height: 94%;
+}
+main .container .musique-frame .ul-musique .coverTune{
+	position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+	background-size: cover;
 }
 /*------------------------------------*\
     Footer
@@ -459,7 +468,7 @@ footer ul{
 /*------------------------------------*\
     POP UP Musique
 \*------------------------------------*/
-#popUp {
+.popUp {
     display: none;
     position: fixed;
     z-index: 15;

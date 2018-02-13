@@ -15,13 +15,7 @@ if(file_exists("../settings.php")){include("../settings.php");}
             <div class="musique-frame">
             
 
-            <button id="popBtn">Open Modal</button>
-            <div id="popUp">
-                <div class="popUp-content">
-                    <span class="close">&times;</span>
-                    <p>Some text in the Modal..</p>
-                </div>
-            </div>
+            
             
 
 
@@ -33,7 +27,14 @@ if(file_exists("../settings.php")){include("../settings.php");}
                     // on crer un li avec le iframe a l'interieur
                     foreach($arrayMusique["track-id"] as $musique){ ?>
                         <li class="tracks">
-                            <iframe scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/<?php echo $musique["id"] ?>&amp;color=%2300ff9d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
+                            <div class="popUp">
+                                <div class="popUp-content">
+                                    <span class="close">&times;</span>
+                                    <p>Some text in the Modal..</p>
+                                    <iframe scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/<?php echo $musique["id"] ?>&amp;color=%2300ff9d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
+                                </div>
+                            </div>
+                            <div class="coverTune popBtn" style="background-image: url('<?php echo $musique["img"] ?>');"></div>
                         </li>
                     <?php } ?>
                 </ul>
