@@ -2,10 +2,10 @@
 <div  class="container">
         <a href="#" class="logo">Logo</a>
         <ul class="menu">
-            <li><a href="/musique">Musique</a></li>
-            <li><a href="#">Autres Projets</a></li>
-            <li><a href="#">À Propos</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="/musique">musique</a></li>
+            <li><a href="#">autres projets</a></li>
+            <li><a href="#">à propos</a></li>
+            <li><a href="/contact">contact</a></li>
         </ul>
 
         <div class="btn-burger">

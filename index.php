@@ -12,6 +12,10 @@ if(file_exists("settings.php")){include("settings.php");}
 <body>
     <?php include("blocks/header.php") ?>
     <main>
+        <div>
+            <h1>site under construction</h1>
+            <p>feel free to have a look at the other pages</p>
+        </div>
     </main>
     <?php include("blocks/footer.php") ?>
 </body>
