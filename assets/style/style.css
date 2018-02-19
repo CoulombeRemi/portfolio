@@ -466,11 +466,24 @@ main .container .musique-frame .ul-musique .coverTune:hover{
 
 }*/
 
-main .container .musique-frame .ul-musique .vids{
-		
+main .container .musique-frame .ul-musique .vids{	
+	position: relative; 
+	padding-bottom: 56.25%; 
+	height: 0; 
+	overflow: hidden; 
+	height: auto; 
+	width: 100%;
+	max-width: 320px;
 }
 main .container .musique-frame .ul-musique .vids iframe{
-	width: 100px;
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%;
+}
+main .container .musique-frame .ul-musique .vids p{
+	padding-bottom: 25px;
 }
 
 /*------------------------------------*\
@@ -609,10 +622,16 @@ footer ul{
 		justify-content: space-between;
 		display: flex;
 		flex-wrap: wrap;
+		padding-bottom: 25px;
 	}
 	main .container .musique-frame .ul-musique .tracks{
 		max-width: 260px;
 	}
+	main .container .musique-frame .ul-musique .vids{
+		padding-bottom: 21.25%;
+		width: 49%;
+		max-width: 100%;
+	}	
 
 	/*--footer--*/
 	footer{

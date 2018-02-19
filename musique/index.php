@@ -40,9 +40,11 @@ if(file_exists("../settings.php")){include("../settings.php");}
                 <ul class="ul-musique">
                     <li class="vids">
                         <iframe src="https://player.vimeo.com/video/251260126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <p>2017 - Musique et effets sonores</p>
                     </li>
                     <li class="vids">
                         <iframe src="https://player.vimeo.com/video/149588060" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <p>2015 - Effets sonores</p>
                     </li>
                 </ul>
             </div>
