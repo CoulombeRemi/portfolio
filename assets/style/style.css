@@ -466,6 +466,13 @@ main .container .musique-frame .ul-musique .coverTune:hover{
 
 }*/
 
+main .container .musique-frame .ul-musique .vids{
+		
+}
+main .container .musique-frame .ul-musique .vids iframe{
+	width: 100px;
+}
+
 /*------------------------------------*\
     Footer
 \*------------------------------------*/

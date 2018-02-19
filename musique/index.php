@@ -13,12 +13,6 @@ if(file_exists("../settings.php")){include("../settings.php");}
         <div class="container">
             <h1>Musique</h1>
             <div class="musique-frame">
-            
-
-            
-            
-
-
                 <ul class="ul-musique">
                 <!-- On va chercher le fichier JSON -->
                 <?php $jsonString = file_get_contents("../assets/track-id.json");
@@ -41,6 +35,17 @@ if(file_exists("../settings.php")){include("../settings.php");}
                     <?php } ?>
                 </ul>
             </div> 
+            <h1>Vidéo</h1>
+            <div class="musique-frame">
+                <ul class="ul-musique">
+                    <li class="vids">
+                        <iframe src="https://player.vimeo.com/video/251260126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </li>
+                    <li class="vids">
+                        <iframe src="https://player.vimeo.com/video/149588060" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </li>
+                </ul>
+            </div>
         </div>
     </main>
     <?php include("../blocks/footer.php") ?>
