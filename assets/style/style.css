@@ -20,6 +20,11 @@
 @font-face {
 	font-family: "FuturaLT";
 	src: url("../font/Futura LT/FuturaLT.ttf");
+	font-family: "fontoteka";
+	src: url("../font/fontoteka/DIN Pro Condensed Regular.otf");
+
+	/* font-family: "fontotekaBlack";
+	src: url("../font/fontoteka/DIN Pro Condensed Black.otf"); */
 }
 
 fieldset,
@@ -87,7 +92,7 @@ html {
 body {
 	/* font-family: 'Lato', sans-serif; */
 
-	font-family: 'FuturaLT', Arial, sans-serif;
+	font-family: 'fontoteka', Arial, sans-serif;
 	font-weight:normal;
 	font-style:normal;
 
@@ -152,6 +157,7 @@ img {
 \*------------------------------------*/
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+/* font-family: "fontotekaBlack"; */
 	font-weight: bold;
   margin-bottom: 0.5em;
 }
@@ -326,6 +332,10 @@ header .logo{
 	z-index: 11;
 	position: relative;
 	color: #444;
+}
+header a{
+	padding-top: 25px;
+    padding-left: 20px;
 }
 
 
@@ -602,6 +612,7 @@ footer ul{
 		-webkit-transform: scaleX(1);
 		transform: scaleX(1);
 	}
+	
 
 	/*--Main--*/
 	main .container h1{
@@ -661,8 +672,10 @@ footer ul{
 @media only screen and (min-width:1140px) {
 
 }
-@media only screen and (min-width:1280px) {
-
+@media only screen and (min-width:1340px) {
+	header a{
+		padding-left: 0px;
+	}
 }
 @media only screen and (-webkit-min-device-pixel-ratio:1.5),
 	   only screen and (min-resolution:144dpi) {
