@@ -10,6 +10,7 @@ filter.type = 'lowpass';
 filter.frequency.value = 10000;
 
 const vca = context.createGain();
+// remettre a 0.5 apres avoir fait un btn Start
 vca.gain.value = 0;
 let attack = 0.1;
 let release = 0.1;
