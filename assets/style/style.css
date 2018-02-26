@@ -811,37 +811,33 @@ footer ul{
 
 
 /* ------------------ */
-
+/* synth */
+/* ------------------ */
+@media only screen and (min-width:768px) {
 .synth {
-	padding: 30px 0;
-	background: #50433d;
+
   }
   
   .controls {
 	display: flex;
 	justify-content: center;
+	width: 100%;
   /*   border-bottom: solid #a83600 15px; */
   }
   
   .controls h1 {
 	margin: 0;
-	background: #a83600;
-	color: #d1c8be;
-	text-align: center;
-	padding: 5px 0;
-	margin-left: -3px;
-	margin-right: -3px;
   }
   
   .control-group {
 	box-sizing: content-box;
 	position: relative;
 	height: 220px;
-	border-bottom: solid #a83600 15px;
 	margin-right: 3px;
+	max-width: 25%;
   }
   
-  .control-group::after {
+  /* .control-group::after {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -851,27 +847,21 @@ footer ul{
 	background-color: #d1c8be;
 	border-top: solid #50433d 35px;
 	z-index: 100;
-  }
+  } */
   
   .control-group:last-child {
 	margin-right: 0;
 	border-bottom-color: #6585b8;
   }
   
-  .control-group:last-child h1 {
-	background-color: #6585b8;  
+  .control-group:last-child h1 { 
   }
   
   .control-group:last-child::after {
 	display: none;
   }
   
-  .control-group--blank {
-	flex-grow: 1;
-	border-bottom-color: #d1c8be;
-  }
-  
-  .control-group--blank h1 {
+  .control-group h1 {
 	background-color: #d1c8be;
   }
   
@@ -898,9 +888,6 @@ footer ul{
   .screen {
 	width: 500px;
 	height: 300px;
-	background: linear-gradient(135deg, #637d77 0%, #7c9682 100%);
-	border-radius: 50px;
-	box-shadow: inset 5px 5px 15px 2px rgba(0, 0, 0, 0.25);
 	padding: 20px;
 	overflow: hidden;
   }
@@ -908,38 +895,6 @@ footer ul{
   .screen canvas {
 	width: 100%;
 	height: 100%;
-  }
-  
-  footer {
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	background-color: #50433d;
-	color: #d1c8be;
-	padding: 5px 10px;
-  }
-  
-  footer > div {
-	display: flex;
-	align-items: center;
-  }
-  
-  footer a {
-	color: #6585b8;
-	margin: 0 5px;
-  }
-  
-  footer .remix img {
-	background-color: #d1c8be;
-	border-radius: 6px;
-	transition: background-color 0.5s;
-  }
-  
-  footer .remix img:hover {
-	background-color: white;
   }
   
   /*
@@ -974,6 +929,7 @@ footer ul{
 	margin-left: -5px;
   }
   
+  /*css du knob slider*/
   input[type=range]::-webkit-slider-thumb {
 	margin-top: -14px;
 	position: relative;
@@ -984,7 +940,6 @@ footer ul{
 	-webkit-appearance: none;
 	margin-top: -15px;
 	box-shadow: 1px 0px 1px 0px rgba(0, 0, 0, 0.75);
-	background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 46%, #d1c8be 47%, rgba(255, 255, 255, 0) 53%);
 	background: linear-gradient(to right, rgba(255, 255, 255, 0) 46%, #d1c8be 47%, rgba(255, 255, 255, 0) 53%);
 	background-color: #433325;
   }
@@ -998,7 +953,7 @@ footer ul{
 	margin-left: -5px;
   }
   
-  input[type=range]::-moz-range-thumb {
+  /* input[type=range]::-moz-range-thumb {
 	position: relative;
 	height: 40px;
 	width: 15px;
@@ -1010,9 +965,9 @@ footer ul{
 	background: linear-gradient(to right, rgba(255, 255, 255, 0) 46%, #d1c8be 47%, rgba(255, 255, 255, 0) 53%);
 	background-color: #433325;
   }
-  
+   */
   /* buttons */
-  .buttons {
+ .knobs .buttons {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -1020,7 +975,7 @@ footer ul{
 	padding: 0;
 	list-style-type: none;
   }
-  .buttons li {
+  .knobs .buttons li {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -1033,16 +988,16 @@ footer ul{
 			align-items: center;
 	color: #d1c8be;
   }
-  .buttons li input[type=radio] {
+  .knobs .buttons li input[type=radio] {
 	display: none;
   }
-  .buttons li input[type=radio]:checked + label .led {
+  .knobs .buttons li input[type=radio]:checked + label .led {
 	background-color: red;
   }
-  .buttons li .button-label {
+  .knobs .buttons li .button-label {
 	height: 20px;
   }
-  .buttons li label {
+  .knobs .buttons li label {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -1054,7 +1009,7 @@ footer ul{
 		-ms-flex-align: center;
 			align-items: center;
   }
-  .buttons li label .led {
+  .knobs .buttons li label .led {
 	width: 15px;
 	height: 15px;
 	border-radius: 50%;
@@ -1065,7 +1020,7 @@ footer ul{
 	-webkit-transition: background-color 0.1s;
 	transition: background-color 0.1s;
   }
-  .buttons li label .button {
+  .knobs .buttons li label .button {
 	display: block;
 	width: 50px;
 	height: 50px;
@@ -1074,9 +1029,10 @@ footer ul{
 	background-color: #b1a65c;
 	cursor: pointer;
   }
-  .buttons li label:active .button {
+  .knobs .buttons li label:active .button {
 	box-shadow: inset 0px -6px 15px -3px rgba(0, 0, 0, 0.75);
   }
-  .buttons li:last-child .button {
+  .knobs .buttons li:last-child .button {
 	border-right: solid black 2px;
   }
+}
