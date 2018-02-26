@@ -820,7 +820,7 @@ footer ul{
   
   .controls {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	width: 100%;
   /*   border-bottom: solid #a83600 15px; */
   }
@@ -832,9 +832,10 @@ footer ul{
   .control-group {
 	box-sizing: content-box;
 	position: relative;
-	height: 220px;
+	height: 200px;
 	margin-right: 3px;
 	max-width: 25%;
+	border-right: 2px solid;
   }
   
   /* .control-group::after {
@@ -852,6 +853,7 @@ footer ul{
   .control-group:last-child {
 	margin-right: 0;
 	border-bottom-color: #6585b8;
+	border-right: none;
   }
   
   .control-group:last-child h1 { 
@@ -861,14 +863,20 @@ footer ul{
 	display: none;
   }
   
-  .control-group h1 {
-	background-color: #d1c8be;
+  main .container .control-group h1 {
+	border: none;
+    font-size: 1em;
+    padding-bottom: 0px !important;
+  }
+  main .container .control-group #envelope {
+	padding-right: 170px;
   }
   
   .control-group .knobs {
 	display: flex;
 	height: 100%;
 	padding: 10px;
+	justify-content: center;
   }
   
   .control-group label {
@@ -902,13 +910,11 @@ footer ul{
    */
   input[type=range] {
 	height: 40px;
-	-webkit-transform: rotate(-90deg) translateX(-50px);
-			transform: rotate(-90deg) translateX(-50px);
+	transform: rotate(-90deg) translateX(-50px);
 	-webkit-appearance: none;
 	margin: 10px 0;
 	background-color: #515459;
-	background: -webkit-repeating-linear-gradient(left, #d1c8be, #d1c8be 1px, transparent 1px, transparent 1em);
-	background: repeating-linear-gradient(90deg, #d1c8be, #d1c8be 1px, transparent 1px, transparent 1em);
+	background: repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 1px, transparent 1px, transparent 1em);
 	cursor: ns-resize;
   }
   
