@@ -815,7 +815,7 @@ footer ul{
 /* ------------------ */
 @media only screen and (min-width:768px) {
 .synth {
-
+	
   }
   
   .controls {
@@ -823,6 +823,8 @@ footer ul{
 	justify-content: space-between;
 	width: 100%;
   /*   border-bottom: solid #a83600 15px; */
+
+  box-shadow: inset 0px 0px 43px 0px rgba(0,0,0,0.25);
   }
   
   .controls h1 {
@@ -908,13 +910,15 @@ footer ul{
   /*
    * Inputs and other things
    */
-  input[type=range] {
+   input[type=range] {
 	height: 40px;
-	transform: rotate(-90deg) translateX(-50px);
+	-webkit-transform: rotate(-90deg) translateX(-50px);
+			transform: rotate(-90deg) translateX(-50px);
 	-webkit-appearance: none;
 	margin: 10px 0;
 	background-color: #515459;
-	background: repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 1px, transparent 1px, transparent 1em);
+	background: -webkit-repeating-linear-gradient(left, #d1c8be, #d1c8be 1px, transparent 1px, transparent 1em);
+	background: repeating-linear-gradient(90deg, #d1c8be, #d1c8be 1px, transparent 1px, transparent 1em);
 	cursor: ns-resize;
   }
   
@@ -935,7 +939,6 @@ footer ul{
 	margin-left: -5px;
   }
   
-  /*css du knob slider*/
   input[type=range]::-webkit-slider-thumb {
 	margin-top: -14px;
 	position: relative;
@@ -946,6 +949,7 @@ footer ul{
 	-webkit-appearance: none;
 	margin-top: -15px;
 	box-shadow: 1px 0px 1px 0px rgba(0, 0, 0, 0.75);
+	background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 46%, #d1c8be 47%, rgba(255, 255, 255, 0) 53%);
 	background: linear-gradient(to right, rgba(255, 255, 255, 0) 46%, #d1c8be 47%, rgba(255, 255, 255, 0) 53%);
 	background-color: #433325;
   }
@@ -959,7 +963,7 @@ footer ul{
 	margin-left: -5px;
   }
   
-  /* input[type=range]::-moz-range-thumb {
+  input[type=range]::-moz-range-thumb {
 	position: relative;
 	height: 40px;
 	width: 15px;
@@ -971,7 +975,8 @@ footer ul{
 	background: linear-gradient(to right, rgba(255, 255, 255, 0) 46%, #d1c8be 47%, rgba(255, 255, 255, 0) 53%);
 	background-color: #433325;
   }
-   */
+
+
   /* buttons */
  .knobs .buttons {
 	display: -webkit-box;
