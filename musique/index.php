@@ -21,11 +21,13 @@ if(file_exists("../settings.php")){include("../settings.php");}
                     // on crer un li avec le iframe a l'interieur
                     foreach($arrayMusique["track-id"] as $musique){ ?>
                         <li class="tracks">
+                        <img src="../assets/img/play.svg" />    
                             <div class="popUp">
                                 <div class="popUp-content">
                                     <span class="close">&times;</span>
                                     <p><?php echo $musique["name"] ?></p>
                                     <div class="iframeDiv">
+                                        
                                         <iframe scrolling="yes" frameborder="no" allow="autoplay" data-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/<?php echo $musique["id"] ?>&amp;color=%2300ff9d&amp;auto_play=true&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
                                     </div>
                                 </div>

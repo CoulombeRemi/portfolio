@@ -3,7 +3,7 @@
         <a href="/" class="logo">Rémi Coulombe</a>
         <ul class="menu">
             <li><a href="/musique">audio</a></li>
-            <li><a href="#">autres projets</a></li>
+            <li><a href="/projets">autres projets</a></li>
             <li><a href="/propos">à propos</a></li>
             <li><a href="/contact">contact</a></li>
         </ul>
