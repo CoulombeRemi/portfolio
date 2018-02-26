@@ -107,14 +107,20 @@ if(file_exists("settings.php")){include("settings.php");}
 
 
 
-            <div class="screen">
-                <canvas id="oscilloscope" width="460" height="260"></canvas>
-            </div>
+                <div class="screens">
+      <div class="screen">
+        <canvas id="oscilloscope" width="460" height="260"></canvas>
+      </div>
+
+      <div class="screen">
+        <canvas id="frequency" width="460" height="260"></canvas>
+      </div>
+    </div>
         </div>
     </main>
     <?php include("blocks/footer.php") ?>
-    <script src="/assets/js/synth/frequency.js"></script>
-    <script src="/assets/js/synth/oscilloscope.js"></script>
-    <script src="/assets/js/synth/client.js"></script>
+    <script src="<?php echo ROOT_URL; ?>/assets/js/synth/frequency.js"></script>
+    <script src="<?php echo ROOT_URL; ?>/assets/js/synth/oscilloscope.js"></script>
+    <script src="<?php echo ROOT_URL; ?>/assets/js/synth/client.js"></script>
 </body>
 </html>
