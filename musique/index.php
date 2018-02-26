@@ -21,8 +21,9 @@ if(file_exists("../settings.php")){include("../settings.php");}
                     // on crer un li avec le iframe a l'interieur
                     foreach($arrayMusique["track-id"] as $musique){ ?>
                         <li class="tracks">
-                        <img src="../assets/img/play.svg" />    
+                          
                             <div class="popUp">
+                            
                                 <div class="popUp-content">
                                     <span class="close">&times;</span>
                                     <p><?php echo $musique["name"] ?></p>
@@ -32,6 +33,7 @@ if(file_exists("../settings.php")){include("../settings.php");}
                                     </div>
                                 </div>
                             </div>
+                            <img src="../assets/img/play.svg" />
                             <div class="coverTune popBtn" style="background-image: url('<?php echo $musique["img"] ?>');"></div>
                         </li>
                     <?php } ?>
@@ -39,7 +41,7 @@ if(file_exists("../settings.php")){include("../settings.php");}
             </div> 
             <h1>Vidéo</h1>
             <div class="musique-frame">
-                <ul class="ul-musique">
+                <ul class="ul-musique" id="video">
                     <li class="vids">
                         <iframe src="https://player.vimeo.com/video/251260126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                         <p>2017 - Musique et effets sonores</p>
