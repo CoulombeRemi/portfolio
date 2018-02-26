@@ -21,7 +21,7 @@ const freqAnalyzer = context.createAnalyser();
 freqAnalyzer.fftSize = 128;
 
 const volume = context.createGain();
-volume.gain.value = 0.5;
+volume.gain.value = 0;
 
 /*
     Arpeggiator         Envelope
