@@ -72,8 +72,8 @@ document.getElementById('release').addEventListener('input', (event) => release 
 document.getElementById('volume').addEventListener('input', (event) => volume.gain.value = event.target.value / 100);
 
 // start the arpeggiator
-const arpeggiator = new Worker('/portfolio/assets/js/synth/arpeggiator.js');
-//const arpeggiator = new Worker('/assets/js/synth/arpeggiator.js');
+//const arpeggiator = new Worker('/portfolio/assets/js/synth/arpeggiator.js');
+const arpeggiator = new Worker('/assets/js/synth/arpeggiator.js');
 arpeggiator.onmessage = (event) => {
   oscillator.frequency.value = event.data;
   noteOn();
