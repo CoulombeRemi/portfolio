@@ -17,10 +17,10 @@ if(file_exists("settings.php")){include("settings.php");}
             <h2>site under construction</h2>
             <p>feel free to have a look at the other pages</p>
 
+            <!-- synth -->
             <div class="screen">
-                <canvas id="oscilloscope" width="460" height="260"></canvas>
+                <canvas id="oscilloscope" width="1920" height="1080"></canvas>
             </div>
-
             <section class="synth">
                 <section class="controls">
                     <div class="control-group">
@@ -102,9 +102,6 @@ if(file_exists("settings.php")){include("settings.php");}
                     </div>
                 </section>
             </section>
-
-            
-
         </div>
     </main>
     <?php include("blocks/footer.php") ?>

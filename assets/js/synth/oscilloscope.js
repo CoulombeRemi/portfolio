@@ -17,7 +17,7 @@ class Oscilloscope {
     
     this.canvasContext.clearRect(0, 0, width, height);
     
-    this.canvasContext.lineWidth = 2;
+    this.canvasContext.lineWidth = 8;
     this.canvasContext.strokeStyle = 'rgb(0, 0, 0)';
     this.canvasContext.beginPath();
     

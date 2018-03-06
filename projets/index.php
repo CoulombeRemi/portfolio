@@ -13,7 +13,7 @@ if(file_exists("../settings.php")){include("../settings.php");}
     <main>
         <div class="container">
             <h1>Autres Projets</h1>
-            <ul class="ul-musique">
+            <!-- <ul class="ul-musique">
                 <li class="affiche">
                     <div>
                         <img src="../assets/img/projet/affiche_primaire_st-valentin_2018.jpg" alt="p_st-v_2018">
@@ -31,9 +31,34 @@ if(file_exists("../settings.php")){include("../settings.php");}
                 <li class="affiche">
                     <img src="../assets/img/projet/affiche_secondaire_2015.jpg" alt="s_2016">
                 </li>
+            </ul> -->
+            <ul class="ul-musique">
+                <h2>Vidéo</h2>
+                <div class="musique-frame">
+                    <ul class="ul-musique" id="video">
+                        <li class="vids">
+                            <iframe src="https://player.vimeo.com/video/255294765" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            <p>2018</p>
+                        </li>
+                        <li class="vids">
+                            <iframe src="https://player.vimeo.com/video/251260126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            <p>2017</p>
+                        </li>
+                        <li class="vids">
+                            <iframe src="https://player.vimeo.com/video/149588060" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            <p>2015</p>
+                        </li>
+                        <li class="vids" id="video16-9">
+                            <iframe src="https://player.vimeo.com/video/141864107" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            <p>2015</p>
+                        </li>
+                    </ul>
+                </div>
             </ul>
             <ul class="ul-musique">
+                <h2>Web</h2>
                 <li class="site-web">
+                    <p>Site web Techniques Intégration Multimédia 2017</p>
                     <a href="http://tim.cmaisonneuve.qc.ca"><img src="../assets/img/projet/timMaisonneuve.jpg" alt="site tim"></a>
                 </li>
             </ul>
