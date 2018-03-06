@@ -48,10 +48,6 @@ if(file_exists("../settings.php")){include("../settings.php");}
                             <iframe src="https://player.vimeo.com/video/149588060" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                             <p>2015</p>
                         </li>
-                        <li class="vids" id="video16-9">
-                            <iframe src="https://player.vimeo.com/video/141864107" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                            <p>2015</p>
-                        </li>
                     </ul>
                 </div>
             </ul>

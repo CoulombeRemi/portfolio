@@ -517,7 +517,7 @@ main .container .musique-frame .ul-musique .vids{
 	overflow: hidden; 
 	height: auto; 
 	width: 100%;
-	max-width: 320px;
+	max-width: 100%;
 }
 main .container .musique-frame .ul-musique .vids iframe{
 	position: absolute; 
@@ -678,7 +678,9 @@ footer ul{
 		padding-bottom: 21.25%;
 		width: 49%;
 		max-width: 100%;
-	}	
+
+	}
+
 
 	/*--footer--*/
 	footer{
