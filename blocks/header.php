@@ -1,6 +1,7 @@
 <header>
 <div  class="container">
-        <a href="/" class="logo">Rémi Coulombe</a>
+        <!-- <a href="/" class="logo">Rémi Coulombe</a> -->
+        <a href="/" class="logo"><img src="../assets/img/logo.png" alt=""></a>
         <ul class="menu">
             <li><a href="/musique">audio</a></li>
             <li><a href="/projets">autres projets</a></li>

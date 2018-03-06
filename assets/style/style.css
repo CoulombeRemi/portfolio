@@ -332,10 +332,14 @@ header .logo{
 	z-index: 11;
 	position: relative;
 	color: #444;
+	padding-top: 10px;
 }
 header a{
 	padding-top: 25px;
     padding-left: 20px;
+}
+header .logo img{
+	width: 50px;
 }
 
 
@@ -397,6 +401,7 @@ header a{
 	-o-transform: translateY(-13px) rotate(90deg);
 	transform: translateY(-13px) rotate(90deg);
   }
+
 
 
 /*--------------------------------*\
