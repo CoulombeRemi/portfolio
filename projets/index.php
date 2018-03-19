@@ -32,23 +32,51 @@ if(file_exists("../settings.php")){include("../settings.php");}
                     <img src="../assets/img/projet/affiche_secondaire_2015.jpg" alt="s_2016">
                 </li>
             </ul> -->
+
             <ul class="ul-musique">
                 <h2>Vidéo</h2>
                 <div class="musique-frame">
-                    <ul class="ul-musique" id="video">
+                    <ul class="ul-musique" id="ul-video">
+
                         <li class="vids">
-                            <iframe src="https://player.vimeo.com/video/255294765" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                            <p>2018</p>
+                            <div class="vidConent">
+                                <div class="vidIframe">
+                                   <iframe src="https://player.vimeo.com/video/260672392" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+                                </div>
+                                <p>2018</p>
+                            </div>   
                         </li>
+
                         <li class="vids">
-                            <iframe src="https://player.vimeo.com/video/251260126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                            <p>2017</p>
+                            <div class="vidConent">
+                                <div class="vidIframe">
+                                    <iframe src="https://player.vimeo.com/video/255294765" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                </div>
+                                <p>2018</p> 
+                            </div> 
                         </li>
+                        
                         <li class="vids">
-                            <iframe src="https://player.vimeo.com/video/149588060" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                            <p>2015</p>
+                            <div class="vidConent">
+                                <div class="vidIframe">
+                                    <iframe src="https://player.vimeo.com/video/251260126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                </div>
+                                <p>2017</p> 
+                            </div> 
+                        </li>
+                        
+                        <li class="vids">
+                            <div class="vidConent">
+                                <div class="vidIframe">
+                                    <iframe src="https://player.vimeo.com/video/149588060" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                </div>
+                                <p>2015</p> 
+                            </div>  
                         </li>
                     </ul>
+                    <iframe src="https://player.vimeo.com/video/251260126" width="640" height="275" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/251260126">DESCENTE</a> from <a href="https://vimeo.com/user44672269">R&eacute;mi Coulombe</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
                 </div>
             </ul>
             <ul class="ul-musique">
