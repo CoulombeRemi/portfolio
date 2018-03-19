@@ -43,12 +43,21 @@ if(file_exists("../settings.php")){include("../settings.php");}
             <div class="musique-frame">
                 <ul class="ul-musique" id="video">
                     <li class="vids">
-                        <iframe src="https://player.vimeo.com/video/251260126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                        <p>2017 - Musique et effets sonores</p>
+                        <div class="vidConent">
+                            <div class="vidIframe">
+                                <iframe src="https://player.vimeo.com/video/251260126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            </div>
+                            <p>2017 - Musique et effets sonores</p> 
+                        </div>  
                     </li>
                     <li class="vids">
-                        <iframe src="https://player.vimeo.com/video/149588060" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                        <p>2015 - Effets sonores</p>
+                        <div class="vidConent">
+                            <div class="vidIframe">
+                                <iframe src="https://player.vimeo.com/video/149588060" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            </div>
+                            <p>2015 - Effets sonores</p> 
+                        </div>
+                        
                     </li>
                 </ul>
             </div>
