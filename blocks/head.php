@@ -20,3 +20,7 @@
   gtag('js', new Date());
   gtag('config', 'UA-115156249-1');
 </script>
+
+<!-- magnific popup -->
+<link rel="stylesheet" href="<?php echo ROOT_URL; ?>/assets/js/magnificpopup/magnific-popup.css">
+<script src="<?php echo ROOT_URL; ?>/assets/js/magnificpopup/jquery.magnific-popup.min.js"></script>

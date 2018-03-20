@@ -78,29 +78,29 @@ if(file_exists("../settings.php")){include("../settings.php");}
             <div class="musique-frame">
                 <ul class="ul-musique" id="ul-aff">
                     <li class="affiche">
-                        <div class="aff">
+                        <a href="../assets/img/projet/affiche_primaire_st-valentin_2018.jpg" class="aff">
                             <img src="../assets/img/projet/affiche_primaire_st-valentin_2018.jpg" alt="p_st-v_2018">
-                        </div>
+                        </a>
                     </li>
                     <li class="affiche">
-                        <div class="aff">
+                        <a href="../assets/img/projet/affiche_primaire_st-valentin_2017.jpg" class="aff">
                             <img src="../assets/img/projet/affiche_primaire_st-valentin_2017.jpg" alt="p_st-v_2017">
-                        </div>
+                        </a>
                     </li>
                     <li class="affiche">
-                        <div class="aff">
+                        <a href="../assets/img/projet/affiche_seondaire_st-valentin_2016_final.jpg" class="aff">
                             <img src="../assets/img/projet/affiche_seondaire_st-valentin_2016_final.jpg" alt="s_st-v_2016">
-                        </div>
+                        </a>
                     </li>
                     <li class="affiche">
-                        <div class="aff">
+                        <a href="../assets/img/projet/affiche_primaire_halloween_2016.jpg" class="aff">
                             <img src="../assets/img/projet/affiche_primaire_halloween_2016.jpg" alt="p_H_2016">
-                        </div>
+                        </a>
                     </li>
                     <li class="affiche">
-                        <div class="aff">
+                        <a href="../assets/img/projet/affiche_secondaire_2015.jpg" class="aff">
                             <img src="../assets/img/projet/affiche_secondaire_2015.jpg" alt="s_2016">
-                        </div>
+                        </a>
                     </li>
                 </ul>
             </div>

@@ -626,6 +626,12 @@ footer ul{
     text-decoration: none;
     cursor: pointer;
 }
+
+
+
+img.mfp-img{
+	max-height: 100vh !important;
+}
 /*------------------------------------*\
 
 ///////////////////////////////////////
