@@ -558,9 +558,10 @@ main .container .musique-frame #ul-web .site-web{
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
+	flex-direction: column;
 }
 main .container .musique-frame #ul-web .site-web div{
-	width: 48%;
+	width: 100%;
 }
 
 
@@ -739,6 +740,14 @@ footer ul{
 	}
 	main .container .musique-frame .ul-musique .vids .vidIframe{
 		background-color: black;
+	}
+
+	/*web*/
+	main .container .musique-frame #ul-web .site-web{
+		flex-direction: row;
+	}
+	main .container .musique-frame #ul-web .site-web div{
+		width: 48%;
 	}
 
 
