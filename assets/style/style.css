@@ -509,6 +509,9 @@ main .container .musique-frame .ul-musique .coverTune:hover{
 }
 
 /*  AFFICHE  */
+main .container .musique-frame #ul-aff{
+	flex-direction: row;
+}
 main .container .musique-frame .ul-musique .affiche{
 	max-width: calc(25% - 40px);
     margin: 20px;
@@ -543,10 +546,23 @@ main .container .musique-frame .ul-musique .vids p{
 main .container .musique-frame .ul-musique .vids:nth-child(1) .vidIframe{
 	background-color: black;
 }
-
 main .container .musique-frame #ul-video{
 	border-bottom: 1px solid #E8E8E8;
 }
+
+/* web */
+main .container .musique-frame #ul-web{
+	margin: 0;
+}
+main .container .musique-frame #ul-web .site-web{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+main .container .musique-frame #ul-web .site-web div{
+	width: 48%;
+}
+
 
 
 
@@ -610,7 +626,22 @@ footer ul{
     cursor: pointer;
 }
 /*------------------------------------*\
-    Responsive
+
+///////////////////////////////////////
+///////////////////////////////////////
+///////////////////////////////////////
+///////////////////////////////////////
+///////////////////////////////////////
+///////////////////////////////////////
+
+	Responsive
+	
+///////////////////////////////////////
+///////////////////////////////////////
+///////////////////////////////////////
+///////////////////////////////////////
+///////////////////////////////////////
+
 \*------------------------------------*/
 
 @media only screen and (min-width:320px) {
@@ -709,6 +740,7 @@ footer ul{
 	main .container .musique-frame .ul-musique .vids .vidIframe{
 		background-color: black;
 	}
+
 
 
 	/*--footer--*/
