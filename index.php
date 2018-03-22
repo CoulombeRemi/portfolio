@@ -112,7 +112,7 @@ if(file_exists("settings.php")){include("settings.php");}
             </section>
         </div>
     </main>
-    <?php include("blocks/footer.php") ?>
+    <!-- <?php include("blocks/footer.php") ?> -->
     <!-- <script src="<?php echo ROOT_URL; ?>/assets/js/synth/frequ ency.js"></script> -->
     <script src="<?php echo ROOT_URL; ?>/assets/js/synth/oscilloscope.js"></script>
     <script src="<?php echo ROOT_URL; ?>/assets/js/synth/client.js"></script>

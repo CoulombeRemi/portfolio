@@ -629,17 +629,14 @@ main #canvas-container{
 
 footer {
 	margin-top: auto;
+	display: flex;
 }
 footer .container{
-	display: flex;
-	justify-content: space-between;
-}
-footer .infos{
 	display: none;
-	font-size: 0.75em;
 }
 footer ul{
-	padding: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 /*------------------------------------*\
@@ -819,11 +816,21 @@ img.mfp-img{
 	/*--footer--*/
 	footer{
 		display: flex;
+		color: #aaa;
+	}
+	footer .container{
+		display: flex;
+		width: 100%;
+	}
+	footer .container .info-contact{
+		display: flex;
+		width: 100%;
 		justify-content: space-between;
 	}
-	footer .infos{
-		display: block;
+	footer li:hover{
+		color: #191919;
 	}
+
 
 
 
