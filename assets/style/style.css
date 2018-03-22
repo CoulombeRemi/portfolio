@@ -616,6 +616,10 @@ main .secColor{
 	background-repeat: repeat;
 }
 
+main #canvas-container{
+	max-width: 100%;
+}
+
 
 
 
@@ -746,7 +750,7 @@ img.mfp-img{
 		height: 2px;
 		bottom: 8px; /* hauteur de la ligne p/r au texte*/
 		left: 0;
-		background-color: black;
+		background-color: blue;
 		visibility: hidden;
 		-webkit-transform: scaleX(0);
 		transform: scaleX(0);
@@ -860,15 +864,25 @@ img.mfp-img{
 		color: white;
 		transform: translate(-50%,-50%);
 		-ms-transform: translate(-50%,-50%);
-		background-color: blue;
+		background-color: white;
+		color: blue;
+		border: 5px solid blue;
 		cursor: pointer;
 		width: 250px;
 		height: 80px;
 		text-align: center;
 		z-index: 2;
+		box-shadow: 0px 0px 40px 0px rgba(25,25,25,0.3);
+		
+		transition: all .3s ease-in-out;
+	}
+	#text:hover{
+		background-color: blue;
+		color: white;
+		box-shadow: 0px 0px 5px 0px rgba(25,25,25,0.9);
 	}
 	#text h2{
-		padding-top: 28px;
+		padding-top: 25px;
 	}
 
 }

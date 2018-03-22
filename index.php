@@ -21,14 +21,14 @@ if(file_exists("settings.php")){include("settings.php");}
         </section>  
             <!-- synth -->
         <section class="secColor">
-            <div class="container">
-                <div class="screen">
+            <div class="container" id="canvas-container">
+                <div class="screen" id="canvas-container">
                     <!-- <canvas id="oscilloscope" width="1000" height="400"></canvas> -->
-                    <canvas id="oscilloscope"></canvas>
+                    <canvas id="oscilloscope" width=4000 height=1024 style = 'width:2000px; height:512px;'</canvas>
                 </div>
             </div>
         </section> 
-         
+
             <section class="synth">
                 <section class="controls">
                     <div class="control-group">

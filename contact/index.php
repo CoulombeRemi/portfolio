@@ -46,7 +46,10 @@ if(file_exists("../settings.php")){include("../settings.php");}
                         </a>
                     </li>
                     <li>
-                    
+                        <a href="https://www.behance.net/coulombe">
+                            <img src="../assets/img/behance.svg" />    
+                            <p>Behance</p>
+                        </a>
                     </li>
                     <li>
                     
