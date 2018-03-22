@@ -1,13 +1,10 @@
 <?php 
 if(file_exists("settings.php")){include("settings.php");}
 ?>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Rémi Coulombe</title>
-
     <?php include("blocks/head.php") ?>
-    
 </head>
 <body>
     <?php include("blocks/header.php") ?>
@@ -21,8 +18,8 @@ if(file_exists("settings.php")){include("settings.php");}
             <h1>Rémi Coulombe</h1>
             <!-- synth -->
             <div class="screen">
-                <!-- <canvas id="oscilloscope" width="1000" height="1000"></canvas> -->
-                <canvas id="oscilloscope"></canvas>
+                <canvas id="oscilloscope" width="1000" height="1000"></canvas>
+                <!-- <canvas id="oscilloscope"></canvas> -->
             </div>
             <section class="synth">
                 <section class="controls">
