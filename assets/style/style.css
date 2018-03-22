@@ -985,12 +985,19 @@ img.mfp-img{
 /* ------------------ */
 @media only screen and (min-width:768px) {
 .controls {
-	display: flex;
 	justify-content: space-between;
-	width: 100%;
   /*   border-bottom: solid #a83600 15px; */
 
-  	/* box-shadow: inset 0px 0px 43px 0px rgba(0,0,0,0.25); */
+	  /* box-shadow: inset 0px 0px 43px 0px rgba(0,0,0,0.25); */
+	  
+	  display: flex;
+	  justify-content: space-between;
+	  max-width: 1280px;
+	  width: 100%;
+	  width: 100%;
+	  max-width: 1280px;
+	  margin: 0 auto;
+	  position: relative;
   }
   
   .controls h1 {

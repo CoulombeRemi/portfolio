@@ -18,17 +18,17 @@ function playAudio() {
   let release = 0.1;
 
   const analyzer = context.createAnalyser();
-  analyzer.fftSize = 2048;
+  analyzer.fftSize = 8192;
 
 
-  // BPM
+  // BPM 128
   const freqAnalyzer = context.createAnalyser();
-  freqAnalyzer.fftSize = 128;
+  freqAnalyzer.fftSize = 8192;
 
   // Volume initial
   // changer la value du input pour que ca soit la meme que celle du volume
   const volume = context.createGain();
-  volume.gain.value = 0.5;
+  volume.gain.value = 0;
 
   /*
       Arpeggiator         Envelope
@@ -113,12 +113,12 @@ function playAudio() {
       this.currentTime = 0;
       this.play();
   }, false);
-  kick.play();
+  //kick.play();
 
 
   bass.addEventListener('ended', function() {
     this.currentTime = 0;
     this.play();
   }, false);
-  bass.play();
+  //bass.play();
 }

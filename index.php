@@ -14,13 +14,21 @@ if(file_exists("settings.php")){include("settings.php");}
                 <h2>Start Synth</h2>
             </div>
         <!-- </div> -->
-        <div class="container">
-            <h1>Rémi Coulombe</h1>
-            <!-- synth -->
-            <div class="screen">
-                <canvas id="oscilloscope" width="1000" height="1000"></canvas>
-                <!-- <canvas id="oscilloscope"></canvas> -->
+        <section class="sectionTitrePage">
+            <div class="container">
+                <h1>Rémi Coulombe</h1>
             </div>
+        </section>  
+            <!-- synth -->
+        <section class="secColor">
+            <div class="container">
+                <div class="screen">
+                    <!-- <canvas id="oscilloscope" width="1000" height="400"></canvas> -->
+                    <canvas id="oscilloscope"></canvas>
+                </div>
+            </div>
+        </section> 
+         
             <section class="synth">
                 <section class="controls">
                     <div class="control-group">
