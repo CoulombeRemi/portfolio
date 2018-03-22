@@ -9,10 +9,6 @@ if(file_exists("settings.php")){include("settings.php");}
 <body>
     <?php include("blocks/header.php") ?>
     <main>
-        <!-- <div id="overlay" onclick="off()"> -->
-            <div id="text" onclick="playAudio()">
-                <h2>Start Synth</h2>
-            </div>
         <!-- </div> -->
         <section class="sectionTitrePage">
             <div class="container">
@@ -23,6 +19,9 @@ if(file_exists("settings.php")){include("settings.php");}
         <section class="secColor">
             <div class="container" id="canvas-container">
                 <div class="screen" id="canvas-container">
+                    <div id="text" onclick="playAudio()">
+                        <h2>Start Synth</h2>
+                    </div>
                     <!-- <canvas id="oscilloscope" width="1000" height="400"></canvas> -->
                     <canvas id="oscilloscope" width=4000 height=1024 style = 'width:2000px; height:512px;'</canvas>
                 </div>
@@ -68,7 +67,7 @@ if(file_exists("settings.php")){include("settings.php");}
                                 </li>
                             </ul>
                         </div>
-                        <h1>Oscillator</h1>
+                        <h2>Oscillator</h2>
                     </div>
                         <div class="control-group">                     
                             <div class="knobs">
@@ -81,7 +80,7 @@ if(file_exists("settings.php")){include("settings.php");}
                                     <input type="range" name="resonance" id="resonance" value="0" max="50">
                                 </label> 
                             </div>
-                            <h1>Filter</h1>
+                            <h2>Filter</h2>
                         </div>
                     <div class="control-group">
                         <div class="knobs">
@@ -95,7 +94,7 @@ if(file_exists("settings.php")){include("settings.php");}
                             <input type="range" name="release" id="release" max="100" value="100">
                             </label>
                         </div>
-                        <h1 id="envelope">Amp Envelope</h1>
+                        <h2 id="envelope">Amp Envelope</h2>
                     </div>
 
                     <div class="control-group">
@@ -106,7 +105,7 @@ if(file_exists("settings.php")){include("settings.php");}
                             <input type="range" name="volume" id="volume" max="100" value="50">
                             </label>
                         </div>
-                        <h1>Output</h1>
+                        <h2>Output</h2>
                     </div>
                 </section>
             </section>

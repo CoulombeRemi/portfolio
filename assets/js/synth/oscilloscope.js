@@ -43,7 +43,7 @@ class Oscilloscope {
     this.canvasContext.fillRect(0, 0, width, height);
     
     this.canvasContext.lineWidth = 1;
-    this.canvasContext.strokeStyle = 'rgb(44, 0,245)';
+    this.canvasContext.strokeStyle = 'rgb(0,0,0)';
     this.canvasContext.beginPath();
     
     // Taken from this CodePen, because I couldn't figure it out on my own:
