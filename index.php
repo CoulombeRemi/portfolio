@@ -12,11 +12,13 @@ if(file_exists("settings.php")){include("settings.php");}
 <body>
     <?php include("blocks/header.php") ?>
     <main>
+        <!-- <div id="overlay" onclick="off()"> -->
+            <div id="text" onclick="playAudio()">
+                <h2>Start Synth</h2>
+            </div>
+        <!-- </div> -->
         <div class="container">
             <h1>Rémi Coulombe</h1>
-            <h2>site under construction</h2>
-            <p>feel free to have a look at the other pages</p>
-
             <!-- synth -->
             <div class="screen">
                 <!-- <canvas id="oscilloscope" width="1000" height="1000"></canvas> -->

@@ -145,6 +145,14 @@ img {
 	position: relative;
 }
 
+/*header*/
+.containerH {
+	width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
 
 
 
@@ -311,7 +319,7 @@ header {
 	border-bottom: 1px solid #191919;
 	box-shadow: 0px 4px 4px 0px rgba(25,25,25,0.1);
 }
-header .container{
+header .containerH{
 	display: flex;
 }
 header .menu {
@@ -346,6 +354,7 @@ header .logo{
 	/* color: #444; */
 	color: black;
 	padding-top: 10px;
+	padding-left: 10px;
 }
 header a{
 	padding-top: 25px;
@@ -584,19 +593,27 @@ main .sectionTitre  {
 	background-color: white;
 	border-bottom: 1px solid #f2f2f2;
 	padding-bottom: 0.5em;
-    padding-top: 0.5em;
+	padding-top: 0.5em;
+	
+	background-image: url("../img/texture/texture.svg");
+	background-repeat: repeat;
 }
 main .sectionTitre h2{
 	margin-top: 0.5em;
 }
 main .sectionTitrePage{
 	background-color: white;
+	background-image: url("../img/texture/texture.svg");
+	background-repeat: repeat;
 }
 
 
 main .secColor{
 	background-color: #F9F9F9;
 	box-shadow: inset 0px 0px 4px 0px rgba(25,25,25,0.1);
+
+	background-image: url("../img/texture/texture.svg");
+	background-repeat: repeat;
 }
 
 
@@ -817,12 +834,51 @@ img.mfp-img{
 		box-shadow: 0px 0 4px 0px rgba(25,25,25,0.5);
 	}
 
+
+
+	#overlay {
+		position: fixed;
+		display: block;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: rgba(255, 255, 255, 0.90);
+		z-index: 2;
+		transition: all .2s ease-in-out;
+		animation: fadein 3s;
+	}
+	
+	#text{
+		position: fixed;
+		display: block;
+		top: 50%;
+		left: 50%;
+		font-size: 50px;
+		color: white;
+		transform: translate(-50%,-50%);
+		-ms-transform: translate(-50%,-50%);
+		background-color: blue;
+		cursor: pointer;
+		width: 250px;
+		height: 80px;
+		text-align: center;
+		z-index: 2;
+	}
+	#text h2{
+		padding-top: 28px;
+	}
+
 }
 @media only screen and (min-width:1024px) {
 
 }
-@media only screen and (min-width:1140px) {
-
+@media only screen and (min-width:1280px) {
+	header .menu li{
+		padding-top: 6%;
+	}
 }
 @media only screen and (min-width:1340px) {
 	header a{
@@ -1025,7 +1081,7 @@ img.mfp-img{
   /*
    * Inputs and other things
    */
-   input[type=range] {
+   /* input[type=range] {
 	height: 40px;
 	-webkit-transform: rotate(-90deg) translateX(-50px);
 			transform: rotate(-90deg) translateX(-50px);
@@ -1089,7 +1145,88 @@ img.mfp-img{
 	box-shadow: 1px 0px 1px 0px rgba(0, 0, 0, 0.75);
 	background: linear-gradient(to right, rgba(255, 255, 255, 0) 46%, #d1c8be 47%, rgba(255, 255, 255, 0) 53%);
 	background-color: #433325;
+  } */
+
+  input[type="range"] { 
+    margin: 10px 0;
+	-webkit-appearance: none;
+	transform: rotate(-90deg) translateX(-50px);
+    position: relative;
+    overflow: hidden;
+    height: 40px;
+    /* width: 200px; */
+    cursor: pointer;
+	border-radius: 0; /* iOS */
+}
+input[type=range]:focus {
+	outline: none;
   }
+
+::-webkit-slider-runnable-track {
+    background: #ddd;
+}
+
+/*
+ * 1. Set to 0 width and remove border for a slider without a thumb
+ */
+::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 10px; /* 1 */
+    height: 40px;
+    background: #fff;
+    box-shadow: -100vw 0 0 100vw blue;
+    border: 2px solid #a4a4a4; /* 1 */
+}
+
+::-moz-range-track {
+    height: 40px;
+    background: #ddd;
+}
+
+::-moz-range-thumb {
+    background: #fff;
+    height: 40px;
+    width: 20px;
+    border: 3px solid #999;
+    border-radius: 0 !important;
+    box-shadow: -100vw 0 0 100vw dodgerblue;
+    box-sizing: border-box;
+}
+
+::-ms-fill-lower { 
+    background: dodgerblue;
+}
+
+::-ms-thumb { 
+    background: #fff;
+    border: 2px solid #999;
+    height: 40px;
+    width: 20px;
+    box-sizing: border-box;
+}
+
+::-ms-ticks-after { 
+    display: none; 
+}
+
+::-ms-ticks-before { 
+    display: none; 
+}
+
+::-ms-track { 
+    background: #ddd;
+    color: transparent;
+    height: 40px;
+    border: none;
+}
+
+::-ms-tooltip { 
+    display: none;
+}
+
+
+
+
 
 
   /* buttons */
@@ -1162,3 +1299,32 @@ img.mfp-img{
 	border-right: solid black 2px;
   }
 }
+
+
+
+
+.middle {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+  }
+  
+  .site-web:hover .image {
+	opacity: 0.3;
+  }
+  
+  .site-web:hover .middle {
+	opacity: 1;
+  }
+  
+  .text {
+	background-color: #4CAF50;
+	color: white;
+	font-size: 16px;
+	padding: 16px 32px;
+  }

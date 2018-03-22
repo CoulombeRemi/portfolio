@@ -11,7 +11,6 @@ if(file_exists("../settings.php")){include("../settings.php");}
 <body class="propos">
     <?php include("../blocks/header.php") ?>
     <main>
-
         <section class="sectionTitrePage">
             <div class="container">
                 <h1>Autres Projets</h1>
@@ -110,6 +109,9 @@ if(file_exists("../settings.php")){include("../settings.php");}
                     <ul class="ul-musique" id="ul-web">
                         <li class="site-web">
                             <div><a href="http://tim.cmaisonneuve.qc.ca"><img src="../assets/img/projet/timMaisonneuve.jpg" alt="site tim"></a></div>
+                            <div class="middle">
+                                <div class="text">John Doe</div>
+                            </div>
                             <div>
                                 <h3>TIM 2017</h3>
                                 <p>Site web gagnant comme nouveau site du département de Techniques d'Intégration Multimédia 2017. Fait en Word Press</p>

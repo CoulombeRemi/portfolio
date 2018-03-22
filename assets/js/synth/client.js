@@ -3,21 +3,25 @@
 const context = new (window.AudioContext || window.webkitAudioContext)();
 const oscillator = context.createOscillator();
 
-oscillator.type = 'square';
+// Square, sine, saw
+oscillator.type = 'sine';
 
+//Filtre
 const filter = context.createBiquadFilter();
 filter.type = 'lowpass';
 filter.frequency.value = 10000;
 
 const vca = context.createGain();
 // remettre a 0.5 apres avoir fait un btn Start
-vca.gain.value = 0;
+vca.gain.value = 0.5;
 let attack = 0.1;
 let release = 0.1;
 
 const analyzer = context.createAnalyser();
 analyzer.fftSize = 2048;
 
+
+// BPM
 const freqAnalyzer = context.createAnalyser();
 freqAnalyzer.fftSize = 128;
 
@@ -71,18 +75,55 @@ document.getElementById('attack').addEventListener('input', (event) => attack = 
 document.getElementById('release').addEventListener('input', (event) => release = event.target.value / 100);
 document.getElementById('volume').addEventListener('input', (event) => volume.gain.value = event.target.value / 100);
 
-// start the arpeggiator
-//const arpeggiator = new Worker('/portfolio/assets/js/synth/arpeggiator.js');
-const arpeggiator = new Worker('/assets/js/synth/arpeggiator.js');
+// // start the arpeggiator
+// const arpeggiator = new Worker('/portfolio/assets/js/synth/arpeggiator.js');
+// //const arpeggiator = new Worker('/assets/js/synth/arpeggiator.js');
+// arpeggiator.onmessage = (event) => {
+//   oscillator.frequency.value = event.data;
+//   noteOn();
+// }
+
+const oscopeEl = document.getElementById('oscilloscope');
+const oscilloscope = new Oscilloscope(oscopeEl, analyzer);
+//oscilloscope.start();
+
+// const freqEl = document.getElementById('frequency');
+// const frequency = new Frequency(freqEl, freqAnalyzer);
+// frequency.start();
+
+
+// on part le synth quand on clique sur le btn
+function playAudio() {
+
+   //btn disparait
+   document.getElementById("text").style.display = "none";
+
+   console.log("allo");
+ 
+   // audio files 
+   var kick = new Audio('assets/audio/kick.wav'); 
+   var bass = new Audio('assets/audio/bass.wav'); 
+ 
+ 
+   kick.addEventListener('ended', function() {
+       this.currentTime = 0;
+       this.play();
+   }, false);
+   kick.play();
+ 
+   bass.addEventListener('ended', function() {
+     this.currentTime = 0;
+     this.play();
+   }, false);
+   bass.play();
+
+  // start the arpeggiator
+const arpeggiator = new Worker('/portfolio/assets/js/synth/arpeggiator.js');
+//const arpeggiator = new Worker('/assets/js/synth/arpeggiator.js');
 arpeggiator.onmessage = (event) => {
   oscillator.frequency.value = event.data;
   noteOn();
 }
 
-const oscopeEl = document.getElementById('oscilloscope');
-const oscilloscope = new Oscilloscope(oscopeEl, analyzer);
-oscilloscope.start();
-
-const freqEl = document.getElementById('frequency');
-const frequency = new Frequency(freqEl, freqAnalyzer);
-frequency.start();
+  oscilloscope.start();
+}
