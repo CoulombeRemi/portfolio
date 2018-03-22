@@ -5,6 +5,7 @@ $(document).ready(function(){
       $("header").toggleClass("is-active");
     });
 
+
     // img poster
 $('.aff').magnificPopup({type:'image'});
   });

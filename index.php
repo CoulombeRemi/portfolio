@@ -19,7 +19,8 @@ if(file_exists("settings.php")){include("settings.php");}
 
             <!-- synth -->
             <div class="screen">
-                <canvas id="oscilloscope" width="1920" height="1080"></canvas>
+                <!-- <canvas id="oscilloscope" width="1000" height="1000"></canvas> -->
+                <canvas id="oscilloscope"></canvas>
             </div>
             <section class="synth">
                 <section class="controls">

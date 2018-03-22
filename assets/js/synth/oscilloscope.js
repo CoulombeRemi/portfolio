@@ -14,6 +14,9 @@ class Oscilloscope {
     const edgeThreshold = 5;
     const scaling = height / 256;
     this.analyzer.getByteTimeDomainData(this.data);
+
+    console.log(edgeThreshold);
+    console.log(height);
     
     this.canvasContext.clearRect(0, 0, width, height);
     
