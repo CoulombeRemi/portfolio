@@ -543,6 +543,16 @@ main .container .musique-frame .ul-musique .affiche{
 	max-width: calc(25% - 40px);
     margin: 20px;
 }
+main .container .musique-frame .ul-musique .affiche a img{
+	transform: scale(1);
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+	transition: all .2s ease-in-out;
+}
+main .container .musique-frame .ul-musique .affiche a img:hover{
+	transform: scale(1.05);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
+	transition: all .2s ease-in-out;
+}
 
 /*  VIDEO  */
 main .container .musique-frame .ul-musique .vids{	
@@ -682,9 +692,6 @@ footer ul{
     text-decoration: none;
     cursor: pointer;
 }
-
-
-
 img.mfp-img{
 	max-height: 100vh !important;
 }

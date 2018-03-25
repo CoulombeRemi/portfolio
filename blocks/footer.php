@@ -33,17 +33,17 @@
             </ul>
             <ul class="info-exSite">
                 <li>
-                    <a href="https://soundcloud.com/coulombe36">   
+                    <a href="https://soundcloud.com/coulombe36" target="_blank">   
                         <p>Soundcloud</p>
                     </a>  
                 </li>
                 <li>
-                    <a href="https://vimeo.com/user44672269">   
+                    <a href="https://vimeo.com/user44672269" target="_blank">   
                         <p>Vimeo</p>
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.behance.net/coulombe">   
+                    <a href="https://www.behance.net/coulombe" target="_blank">   
                         <p>Behance</p>
                     </a>
                 </li>
