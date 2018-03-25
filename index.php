@@ -33,7 +33,7 @@ if(file_exists("settings.php")){include("settings.php");}
 
             <section class="synth">
                 <section class="controls">
-                    <div class="control-group">
+                    <div class="control-group" id="wave">
                         <div class="knobs">
                             <ul class="buttons">
                                 <li>

@@ -1124,6 +1124,7 @@ img.mfp-img{
 	.controls h2 {
 		margin: 0;
 		text-align: center;
+		color: #191919;
 	}
   
 	.control-group {
@@ -1131,20 +1132,19 @@ img.mfp-img{
 		position: relative;
 		height: 200px;
 		margin-right: 3px;
-		/* max-width: 25%; */
-		/* border-right: 2px solid; */
-		border-bottom: 2px solid #444444;
+		border-bottom: 2px solid #F9F9F9;
 		flex-direction: column;
 		display: flex;
+		padding-bottom: 10px;
+	}
+	#wave{
+		padding-right: 0;
 	}
   
   .control-group:last-child {
 	margin-right: 0;
 	border-bottom-color: #6585b8;
 	border-right: none;
-  }
-  
-  .control-group:last-child h1 { 
   }
   
   .control-group:last-child::after {
@@ -1237,12 +1237,15 @@ canvas{
 	}
 	.control-group {
 		max-width: 25%;
-		border-right: 2px solid;
-		border-bottom: 0px solid #444444;
+		border-right: 2px solid #F9F9F9;
+		border-bottom: 0px solid #F9F9F9;
 	}
 	canvas{
 		width: 2000px;
 		height: 512px;
+	}
+	#wave{
+		padding-right: 28;
 	}
 }
 input[type=range]:focus {
@@ -1251,6 +1254,7 @@ input[type=range]:focus {
 
 ::-webkit-slider-runnable-track {
 	background: #ddd;
+	box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
 
 /*
@@ -1262,7 +1266,7 @@ input[type=range]:focus {
     height: 40px;
     background: #fff;
     box-shadow: -100vw 0 0 100vw #0057ff;
-    border: 2px solid #a4a4a4; /* 1 */
+	border: 2px solid #a4a4a4; /* 1 */
 }
 input[type=range]::-moz-range-thumb {
 	border-radius: 10px !important;
@@ -1270,7 +1274,7 @@ input[type=range]::-moz-range-thumb {
 
 ::-moz-range-track {
     height: 40px;
-    background: #ddd;
+	background: #ddd;
 }
 
 ::-moz-range-thumb {
@@ -1284,7 +1288,7 @@ input[type=range]::-moz-range-thumb {
 }
 
 ::-ms-fill-lower { 
-    background: dodgerblue;
+	background: dodgerblue;
 }
 
 ::-ms-thumb { 
@@ -1342,6 +1346,8 @@ input[type=range]::-moz-range-thumb {
 		-ms-flex-align: center;
 			align-items: center;
 	color: #d1c8be;
+
+	margin-right: 10px;
   }
   .knobs .buttons li input[type=radio] {
 	display: none;
@@ -1352,6 +1358,7 @@ input[type=range]::-moz-range-thumb {
   .knobs .buttons li .button-label {
 	height: 20px;
   }
+
   .knobs .buttons li label {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -1379,16 +1386,14 @@ input[type=range]::-moz-range-thumb {
 	display: block;
 	width: 50px;
 	height: 50px;
-	border: solid black 2px;
-	border-right: none;
-	background-color: #b1a65c;
-	cursor: pointer;
+	border: solid #dddddd 2px;
+	background-color: #0056ff;
+    cursor: pointer;
+    border-radius: 25px;
+	box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
   }
   .knobs .buttons li label:active .button {
-	box-shadow: inset 0px -6px 15px -3px rgba(0, 0, 0, 0.75);
-  }
-  .knobs .buttons li:last-child .button {
-	border-right: solid black 2px;
+	box-shadow: inset 0px 0px 15px 0px rgba(0,0,0,0.75);
   }
 /* } */
 
