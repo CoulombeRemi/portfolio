@@ -31,7 +31,7 @@ if(file_exists("../settings.php")){include("../settings.php");}
                         <ul class="ul-musique" id="ul-web">
                             <li class="site-web">
                                 <div><img src="../assets/img/projet/timMaisonneuve.jpg" alt="site tim"></div>
-                                <div>
+                                <div class="text-projet">
                                     <h3>Plugin audio C++</h3>
                                     <p>Pour mon projet de fin de DEC, j'ai décidé d'apprendre un language de programmation que nous n'avions pas vu au cours de la technique.</p>
                                     <p>J'ai utilisé C++ et le framework <a href="https://juce.com/">JUCE</a> pour concevoir un plugin audio pour Windows (VST 64bit) qui sert de Low Pass, Band Pass et High Pass filter.</p>
@@ -109,7 +109,7 @@ if(file_exists("../settings.php")){include("../settings.php");}
                     <ul class="ul-musique" id="ul-web">
                         <li class="site-web">
                             <div><a href="http://tim.cmaisonneuve.qc.ca" target="_blank"><img src="../assets/img/projet/timMaisonneuve.jpg" alt="site tim"></a></div>
-                            <div>
+                            <div class="text-projet">
                                 <h3>TIM 2017</h3>
                                 <p>Site web officiel du département de Techniques d'Intégration Multimédia.</p>
                                 <p>J'ai principalement travaillé sur le design et l'implémentation du style graphique du site à l'aide de Word Press.</p>

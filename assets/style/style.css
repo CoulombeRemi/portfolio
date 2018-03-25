@@ -676,6 +676,9 @@ main .secColor{
 	background-image: url("../img/texture/texture.svg");
 	background-repeat: repeat;
 }
+main .secColor .text-projet{
+	padding-top: 10px;
+}
 
 main #canvas-container{
 	max-width: 100%;
@@ -907,6 +910,9 @@ img.mfp-img{
 	main .container .musique-frame #ul-web .site-web div{
 		width: 49%;
 	}
+	main .secColor .text-projet{
+		padding-top: 0;
+	}
 
 	/*contact*/
 	main .container .info-contact .info-liste{
@@ -980,7 +986,7 @@ img.mfp-img{
 		padding-top: 6%;
 	}
 	main .container .musique-frame .ul-musique .affiche{
-		height: 50%;
+		height: 45%;
 	}
 }
 @media only screen and (max-width:1340px) {
