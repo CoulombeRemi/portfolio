@@ -936,9 +936,10 @@ img.mfp-img{
 		width: 100%;
 		justify-content: space-between;
 	}
-	footer li:hover{
-		color: #191919;
+	footer p:hover{
+		color: #0057ff;
 	}
+
 
 
 
