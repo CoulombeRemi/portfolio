@@ -458,35 +458,34 @@ main .container .musique-frame .ul-musique{
 /*Contact*/
 main .container .info-contact{
 	align-items: center;
-	/* align-content: center; */
 	justify-content: center;
 	display: flex;
 	flex-direction: column;
+	padding-top: 10%;
 }
 main .container .info-contact .info-liste{
 	display: flex;
 	flex-direction: column;
-	width: 40%;
+	width: 75%;
 }
 main .container .info-contact .info-exSite{
 	display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    width: 40%;
+	width: 40%;
+	margin-top: 25px;
+	padding-top: 15px;
+	border-top: solid 2px #444444;
 }
 main .container .info-contact li{
 	display: flex;
 	flex-direction: row;
 	padding-bottom: 20px;
+	justify-content: space-between;
 }
 main .container .info-contact li:nth-child(1){
 	justify-content: center;
-}
-main .container .info-contact li div{
-	display: flex;
-	justify-content: center;
-	width: 100%;
 }
 main .container .info-contact li img{
 	padding-right: 10px;
@@ -874,6 +873,11 @@ img.mfp-img{
 	}
 	main .container .musique-frame #ul-web .site-web div{
 		width: 49%;
+	}
+
+	/*contact*/
+	main .container .info-contact .info-liste{
+		width: 40%
 	}
 
 

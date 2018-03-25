@@ -17,28 +17,20 @@ if(file_exists("../settings.php")){include("../settings.php");}
                     <li><h2>Rémi Coulombe</h2></li>
                     <li>
                         <img src="../assets/img/mail.svg" />
-                        <div>
                             <p>rem.coulombe@gmail.com</p>
-                        </div>
                         
                     </li>
                     <li>
                         <img src="../assets/img/phone.svg" /> 
-                        <div>
-                            <p>514.572.6773</p>
-                        </div> 
+                            <p>514.572.6773</p> 
                     </li>
                     <li>
                         <img src="../assets/img/map.svg" /> 
-                        <div>
-                            <p>Montréal, Qc</p>  
-                        </div>   
+                            <p>Montréal, Qc</p>     
                     </li>
                     <li>
                         <img src="../assets/img/map.svg" />    
-                        <div>
                             <p>Granby, Qc</p>
-                        </div>
                     </li>
                 </ul>
                 <ul class="info-exSite">
@@ -59,9 +51,6 @@ if(file_exists("../settings.php")){include("../settings.php");}
                             <img src="../assets/img/behance.svg" />    
                             <!-- <p>Behance</p> -->
                         </a>
-                    </li>
-                    <li>
-                    
                     </li>
                 </ul>
             </div>
