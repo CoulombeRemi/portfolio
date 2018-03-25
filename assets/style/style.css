@@ -139,7 +139,7 @@ img {
 
 
 .container {
-  width: 100%;
+	width: 100%;
 	max-width: 1280px;
 	margin: 0 auto;
 	position: relative;
@@ -452,6 +452,9 @@ main .container h1{
 	text-align: center;
 	margin-bottom: 40px;
 }
+main .container .musique-frame .ul-musique{
+	padding-top: 30px;
+}
 /*Contact*/
 main .container .info-contact .info-liste{
 	display: flex;
@@ -762,6 +765,9 @@ img.mfp-img{
 	
 
 	/*--Main--*/
+	main .container{
+		margin: 0 auto;
+	}
 	main .container h1{
 		text-align: start;
 		border-bottom: 2px solid #444;
@@ -782,6 +788,7 @@ img.mfp-img{
 		flex-wrap: wrap;
 		padding-bottom: 25px;
 		margin: 0 -20px;
+		padding-top: 0;
 	}
 	main .container .musique-frame #ul-video{
 		margin: 0;
@@ -901,9 +908,13 @@ img.mfp-img{
 		padding-top: 6%;
 	}
 }
-@media only screen and (min-width:1340px) {
+@media only screen and (max-width:1340px) {
 	header a{
 		padding-left: 0px;
+	}
+	main .container{
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 }
 @media only screen and (-webkit-min-device-pixel-ratio:1.5),
