@@ -202,7 +202,7 @@ p {
   margin-bottom: 0.5em;
 }
 .downloadbtn{
-	color: blue;
+	color: #0057ff;
 	text-decoration: underline;
 }
 
@@ -744,6 +744,8 @@ img.mfp-img{
 	max-height: 100vh !important;
 }
 
+
+/* texte canvas */
 #text{
 	position: fixed;
 	display: block;
@@ -753,21 +755,21 @@ img.mfp-img{
 	color: white;
 	transform: translate(-50%,-50%);
 	-ms-transform: translate(-50%,-50%);
-	background-color: white;
-	color: blue;
-	border: 5px solid blue;
+	color: #0057ff;
+	border: 3px solid #0057ff;
 	cursor: pointer;
 	width: 250px;
 	height: 80px;
 	text-align: center;
 	z-index: 2;
 	box-shadow: 0px 0px 40px 0px rgba(25,25,25,0.3);
-	
+	border-radius: 10px;
 	transition: all .3s ease-in-out;
 }
 #text:hover{
-	background-color: blue;
+	background-color: #0057ff;
 	color: white;
+	border-radius: 0px;
 	box-shadow: 0px 0px 5px 0px rgba(25,25,25,0.9);
 }
 #text h2{
@@ -835,7 +837,7 @@ img.mfp-img{
 		height: 2px;
 		bottom: 8px; /* hauteur de la ligne p/r au texte*/
 		left: 0;
-		background-color: blue;
+		background-color: #0057ff;
 		visibility: hidden;
 		-webkit-transform: scaleX(0);
 		transform: scaleX(0);
@@ -962,37 +964,6 @@ img.mfp-img{
 		transition: all .2s ease-in-out;
 		animation: fadein 3s;
 	}
-	
-	#text{
-		position: fixed;
-		display: block;
-		top: 50%;
-		left: 50%;
-		font-size: 50px;
-		color: white;
-		transform: translate(-50%,-50%);
-		-ms-transform: translate(-50%,-50%);
-		background-color: white;
-		color: blue;
-		border: 5px solid blue;
-		cursor: pointer;
-		width: 250px;
-		height: 80px;
-		text-align: center;
-		z-index: 2;
-		box-shadow: 0px 0px 40px 0px rgba(25,25,25,0.3);
-		
-		transition: all .3s ease-in-out;
-	}
-	#text:hover{
-		background-color: blue;
-		color: white;
-		box-shadow: 0px 0px 5px 0px rgba(25,25,25,0.9);
-	}
-	#text h2{
-		padding-top: 25px;
-	}
-
 }
 @media only screen and (min-width:900px) {
 	main .container .musique-frame .ul-musique .affiche{
@@ -1289,7 +1260,7 @@ input[type=range]:focus {
     width: 10px; /* 1 */
     height: 40px;
     background: #fff;
-    box-shadow: -100vw 0 0 100vw blue;
+    box-shadow: -100vw 0 0 100vw #0057ff;
     border: 2px solid #a4a4a4; /* 1 */
 }
 
