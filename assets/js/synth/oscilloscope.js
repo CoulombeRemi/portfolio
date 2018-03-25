@@ -42,7 +42,7 @@ class Oscilloscope {
     this.canvasContext.fillStyle = 'rgba(0, 20, 0, 0)';
     this.canvasContext.fillRect(0, 0, width, height);
     
-    this.canvasContext.lineWidth = 1;
+    this.canvasContext.lineWidth = 10;
     this.canvasContext.strokeStyle = 'rgb(0,0,0)';
     this.canvasContext.beginPath();
     
@@ -69,6 +69,8 @@ class Oscilloscope {
     this.canvasContext.stroke();
     requestAnimationFrame(this.draw.bind(this));
   }
+
+  
   
   start() {
     requestAnimationFrame(this.draw.bind(this));

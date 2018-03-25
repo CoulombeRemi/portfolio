@@ -23,7 +23,10 @@ if(file_exists("settings.php")){include("settings.php");}
                         <h2>Start Synth</h2>
                     </div>
                     <!-- <canvas id="oscilloscope" width="1000" height="400"></canvas> -->
-                    <canvas id="oscilloscope" width=4000 height=1024 style = 'width:2000px; height:512px;'</canvas>
+                    <canvas id="oscilloscope" width=4000 height=1024 style = '
+                    width:2000px; 
+                    height:512px;
+                    '</canvas>
                 </div>
             </div>
         </section> 
@@ -111,7 +114,6 @@ if(file_exists("settings.php")){include("settings.php");}
             </section>
         </div>
     </main>
-    <!-- <?php include("blocks/footer.php") ?> -->
     <!-- <script src="<?php echo ROOT_URL; ?>/assets/js/synth/frequ ency.js"></script> -->
     <script src="<?php echo ROOT_URL; ?>/assets/js/synth/oscilloscope.js"></script>
     <script src="<?php echo ROOT_URL; ?>/assets/js/synth/client.js"></script>

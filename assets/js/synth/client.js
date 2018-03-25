@@ -28,7 +28,7 @@ function playAudio() {
   // Volume initial
   // changer la value du input pour que ca soit la meme que celle du volume
   const volume = context.createGain();
-  volume.gain.value = 0;
+  volume.gain.value = 0.2;
 
   /*
       Arpeggiator         Envelope
@@ -121,4 +121,7 @@ function playAudio() {
     this.play();
   }, false);
   //bass.play();
+
+
+  
 }
