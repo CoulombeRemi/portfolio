@@ -1208,7 +1208,7 @@ img.mfp-img{
     height: 40px;
     /* width: 200px; */
     cursor: pointer;
-	border-radius: 0; /* iOS */
+	border-radius: 8px;
 	margin-left: 100px;
 }
 canvas{
@@ -1218,6 +1218,8 @@ canvas{
 @media only screen and (min-width:768px) {
 	.controls{
 		flex-direction: row;
+		display: flex;
+		justify-content: center;
 	}
 	.control-group .knobs {
 		flex-direction: row;
@@ -1231,7 +1233,6 @@ canvas{
 		height: 40px;
 		/* width: 200px; */
 		cursor: pointer;
-		border-radius: 0; /* iOS */
 		margin-left: 0px;
 	}
 	.control-group {
@@ -1249,7 +1250,7 @@ input[type=range]:focus {
   }
 
 ::-webkit-slider-runnable-track {
-    background: #ddd;
+	background: #ddd;
 }
 
 /*
@@ -1263,6 +1264,9 @@ input[type=range]:focus {
     box-shadow: -100vw 0 0 100vw #0057ff;
     border: 2px solid #a4a4a4; /* 1 */
 }
+input[type=range]::-moz-range-thumb {
+	border-radius: 10px !important;
+}
 
 ::-moz-range-track {
     height: 40px;
@@ -1273,8 +1277,8 @@ input[type=range]:focus {
     background: #fff;
     height: 40px;
     width: 20px;
-    border: 3px solid #999;
-    border-radius: 0 !important;
+    /* border: 3px solid #999; */
+    border-radius: 8px !important;
     box-shadow: -100vw 0 0 100vw dodgerblue;
     box-sizing: border-box;
 }
@@ -1285,10 +1289,11 @@ input[type=range]:focus {
 
 ::-ms-thumb { 
     background: #fff;
-    border: 2px solid #999;
+    /* border: 2px solid #999; */
     height: 40px;
     width: 20px;
-    box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 10px !important;
 }
 
 ::-ms-ticks-after { 

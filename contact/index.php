@@ -4,7 +4,7 @@ if(file_exists("../settings.php")){include("../settings.php");}
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>Contact</title>
+    <title>RC - Contact</title>
     <?php include("../blocks/head.php") ?>
 </head>
 <body class="contact">
