@@ -159,6 +159,11 @@ if(file_exists("../settings.php")){include("../settings.php");}
                             </a>
                         </li>
                         <li class="affiche">
+                            <a href="../assets/img/projet/affiche.jpg" class="aff">
+                                <img src="../assets/img/projet/affiche.jpg" alt="3d_2017">
+                            </a>
+                        </li>
+                        <li class="affiche">
                             <a href="../assets/img/projet/storm.jpg" class="aff">
                                 <img src="../assets/img/projet/storm.jpg" alt="behance 2016">
                             </a>
