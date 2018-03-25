@@ -108,10 +108,14 @@ if(file_exists("../settings.php")){include("../settings.php");}
                 <div class="musique-frame">
                     <ul class="ul-musique" id="ul-web">
                         <li class="site-web">
-                            <div><a href="http://tim.cmaisonneuve.qc.ca"><img src="../assets/img/projet/timMaisonneuve.jpg" alt="site tim"></a></div>
+                            <div><a href="http://tim.cmaisonneuve.qc.ca" target="_blank"><img src="../assets/img/projet/timMaisonneuve.jpg" alt="site tim"></a></div>
                             <div>
                                 <h3>TIM 2017</h3>
-                                <p>Site web gagnant comme nouveau site du département de Techniques d'Intégration Multimédia 2017. Fait en Word Press</p>
+                                <p>Site web officiel du département de Techniques d'Intégration Multimédia.</p>
+                                <p>J'ai principalement travaillé sur le design et l'implémentation du style graphique du site à l'aide de Word Press.</p>
+                                <br>
+                                <br>
+                                <p class="downloadbtn"><a href="http://tim.cmaisonneuve.qc.ca" target="_blank">Site TIM</a></p>
                             </div>
                         </li>
                     </ul>
