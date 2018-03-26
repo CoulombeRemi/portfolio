@@ -8,12 +8,12 @@
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
 <link rel="icon" type="image/png" href="<?php echo ROOT_URL; ?>/assets/img/logo.png">
 <!--SCRIPT-->
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="<?php echo ROOT_URL; ?>/assets/js/main.js"></script>
-<script src="<?php echo ROOT_URL; ?>/assets/js/popUp.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script>
+<script src="<?php echo ROOT_URL; ?>/assets/js/main.js" type="text/javascript"></script>
+<script src="<?php echo ROOT_URL; ?>/assets/js/popUp.js" type="text/javascript"></script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115156249-1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115156249-1" type="text/javascript"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -23,4 +23,4 @@
 
 <!-- magnific popup -->
 <link rel="stylesheet" href="<?php echo ROOT_URL; ?>/assets/js/magnificpopup/magnific-popup.css">
-<script src="<?php echo ROOT_URL; ?>/assets/js/magnificpopup/jquery.magnific-popup.min.js"></script>
+<script src="<?php echo ROOT_URL; ?>/assets/js/magnificpopup/jquery.magnific-popup.min.js" type="text/javascript"></script>

@@ -98,12 +98,12 @@ if(file_exists("settings.php")){include("settings.php");}
                 <div class="control-group">
                     <div class="knobs">
                         <label for="cutoff">
-                            <div class="label-text">FREQ</div>
-                            <input type="range" name="cutoff" id="cutoff" value="10000" max="10000">
+                            <div class="label-text"><p>FREQ</p></div>
+                            <input type="range" name="cutoff" id="cutoff" value="10000" max="10000"/>
                         </label>
                         <label for="resonance">
-                            <div class="label-text">RES</div>
-                            <input type="range" name="resonance" id="resonance" value="0" max="50">
+                            <div class="label-text"><p>RES</p></div>
+                            <input type="range" name="resonance" id="resonance" value="0" max="50"/>
                         </label>
                     </div>
                     <h2>Filter</h2>
@@ -111,13 +111,13 @@ if(file_exists("settings.php")){include("settings.php");}
                 <div class="control-group">
                     <div class="knobs">
                         <label for="attack">
-                            <div class="label-text">A</div>
-                            <input type="range" name="attack" id="attack" max="100" value="10">
+                            <div class="label-text"><p>A</p></div>
+                            <input type="range" name="attack" id="attack" max="100" value="10"/>
                         </label>
 
                         <label for="release">
-                            <div class="label-text">R</div>
-                            <input type="range" name="release" id="release" max="100" value="100">
+                            <div class="label-text"><p>R</p></div>
+                            <input type="range" name="release" id="release" max="100" value="100"/>
                         </label>
                     </div>
                     <h2 id="envelope">Amp Envelope</h2>
@@ -127,8 +127,8 @@ if(file_exists("settings.php")){include("settings.php");}
 
                     <div class="knobs">
                         <label for="volume" alt="Output volume">
-                            <div class="label-text">VOL</div>
-                            <input type="range" name="volume" id="volume" max="100" value="50">
+                            <div class="label-text"><p>VOL</p></div>
+                            <input type="range" name="volume" id="volume" max="100" value="50"/>
                         </label>
                     </div>
                     <h2>Output</h2>

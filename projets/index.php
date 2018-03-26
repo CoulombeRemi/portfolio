@@ -2,6 +2,7 @@
 if(file_exists("../settings.php")){include("../settings.php");}
 ?>
 
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
@@ -33,19 +34,19 @@ if(file_exists("../settings.php")){include("../settings.php");}
                         <ul class="ul-musique" id="ul-web">
                             <li class="site-web">
                                 <div>
-                                    <img src="../assets/img/projet/timMaisonneuve.jpg" alt="site tim">
+                                    <img src="../assets/img/projet/timMaisonneuve.jpg" alt="JUCE plugin C++">
                                 </div>
                                 <div class="text-projet">
                                     <h3>Plugin audio C++</h3>
                                     <p>Pour mon projet de fin de DEC, j'ai décidé d'apprendre un language de programmation que
                                         nous n'avions pas vu au cours de la technique.</p>
                                     <p>J'ai utilisé C++ et le framework
-                                        <a href="https://juce.com/">JUCE</a> pour concevoir un plugin audio pour Windows (VST 64bit) qui sert de Low
+                                        <a href="https://juce.com/"  target="_blank">JUCE</a> pour concevoir un plugin audio pour Windows (VST 64bit) qui sert de Low
                                         Pass, Band Pass et High Pass filter.</p>
                                     <br>
                                     <br>
                                     <p class="downloadbtn">
-                                        <a href="">Télécharger</a>
+                                        <a href="" download>Télécharger</a>
                                     </p>
                                 </div>
                             </li>
@@ -119,7 +120,7 @@ if(file_exists("../settings.php")){include("../settings.php");}
                         <li class="site-web">
                             <div>
                                 <a href="http://tim.cmaisonneuve.qc.ca" target="_blank">
-                                    <img src="../assets/img/projet/timMaisonneuve.jpg" alt="site tim">
+                                    <img src="../assets/img/projet/timMaisonneuve.jpg" alt="site tim TIM">
                                 </a>
                             </div>
                             <div class="text-projet">
