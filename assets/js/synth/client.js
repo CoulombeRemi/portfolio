@@ -88,8 +88,8 @@ function playAudio() {
 
    
   // start the arpeggiator
-  const arpeggiator = new Worker('/portfolio/assets/js/synth/arpeggiator.js');
-  //const arpeggiator = new Worker('/assets/js/synth/arpeggiator.js');
+  //const arpeggiator = new Worker('/portfolio/assets/js/synth/arpeggiator.js');
+  const arpeggiator = new Worker('/assets/js/synth/arpeggiator.js');
   arpeggiator.onmessage = (event) => {
     oscillator.frequency.value = event.data;
     noteOn();
