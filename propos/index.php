@@ -13,10 +13,24 @@ if(file_exists("../settings.php")){include("../settings.php");}
     <main>
         <div class="container">
             <h1>À Propos</h1>
-            <p class="pro-text">Présentement, je suis en train de terminer mon DEC en techniques d’intégration multimédia au collège de Maisonneuve. Je souhaite poursuivre mes études universitaires dans le domaine musical à votre université.</p>
-            <p class="pro-text">Intéressé par la musique depuis toujours, j’ai débuté en jouant de la guitare durant plusieurs années. Au secondaire, j’ai découvert la musique par ordinateur tels que l’enregistrement et la composition. Étant curieux sur le domaine, j’ai développé mon côté autodidacte en apprenant grandement par moi-même l’utilisation des logiciels audios et les bases de la théorie musicale. 
-            </p>
-            <p class="pro-text">Ma formation collégiale m’a permis de toucher plusieurs aspects du multimédia. Même si j’ai implanté certaines de mes connaissances musicales dans certains de mes cours du DEC, je n’ai pas pu approfondir cette discipline au maximum.Par le programme que vous offrez, musique numérique, intégrer ce parcours me permettrait d’élever mes notions musicales et de transformer ma passion de niveau «hobby» vers un niveau professionnel. De part mes compétences, je crois avoir le profil nécessaire pour intégrer le programme.
+            <p class="pro-text">
+                Bonjour,
+                <br>
+                <br>
+                Je termine présentement mon DEC en Techniques d’intégration multimédia au Collège de Maisonneuve. Je prévois poursuivre mes études en musique électronique à l’Université de Montréal en 2018.
+                <br>
+                <br>
+                Je suis un mordu de musique et de nouvelles technologies visuelles. Ma formation en multimédia m'a permis de toucher à plusieurs sphères de la technologie en me donnant les outils nécessaires pour poursuivre dans le domaine, par exemples: Photoshop, Illustrator, Premiere Pro, After Effect, Unity 2d-3d, Logic Pro et Ableton. 
+                <br>
+                <br>
+                Je suis particulièrement intéressé par l’audio, l'infographie et la vidéo. J’ai commencé, il y a plusieurs années, à explorer le monde de la musique numérique et l’infographie de manière autodidacte comme passe-temps.  De plus,  jouer dans les logiciels audio et numériques ont été les premiers déclencheurs de ma passion pour ceux-ci.  Ma formation en multimédia m’a donc permis d’approfondir davantage mes connaissances et de découvrir de nouveaux médiums artistiques tout autant intéressants.  
+                <br>
+                <br>
+                Rémi
+                <br>
+                <br>
+                <br>
+                <p>Voici mon CV: </p><p class="downloadbtn"><a href="">Télécharger</a></p>
             </p>
         </div>
     </main>
