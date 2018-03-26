@@ -1,8 +1,6 @@
 <?php 
 if(file_exists("../settings.php")){include("../settings.php");}
 ?>
-
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
@@ -125,7 +123,7 @@ if(file_exists("../settings.php")){include("../settings.php");}
                         <li class="site-web">
                             <div>
                                 <a href="http://tim.cmaisonneuve.qc.ca" target="_blank">
-                                    <img src="../assets/img/projet/timMaisonneuve.jpg" alt="site tim TIM">
+                                    <img src="../assets/img/projet/timmaisonneuve.jpg" alt="site tim TIM">
                                 </a>
                             </div>
                             <div class="text-projet">

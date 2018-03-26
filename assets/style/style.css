@@ -83,6 +83,8 @@ acronym {
 
 html {
 	font-size: 62.5%;
+	height: 100%;
+	width: 100%;
 }
 
 body {
@@ -572,15 +574,14 @@ main .container .musique-frame #video {
 main .container .musique-frame .ul-musique .tracks {
 	position: relative;
 	display: -webkit-box;
-	display: -moz-box; 
 	display: -ms-flexbox;
 	display: flex;
 	max-width: 320px;
 	width: 100%;
 	min-width: 0px;
-	min-height: 0px;
+	/* min-height: 0px;
 	height: 100%;
-	max-height: 320px;
+	max-height: 320px; */
 	margin-bottom: 20px;
 	border: 1px solid #E8E8E8;
 	overflow: hidden;

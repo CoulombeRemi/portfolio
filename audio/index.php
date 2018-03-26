@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <?php 
 if(file_exists("../settings.php")){include("../settings.php");}
 ?>
