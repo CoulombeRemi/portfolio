@@ -37,7 +37,7 @@ if(file_exists("../settings.php")){include("../settings.php");}
                 <br>
                 <p>Voici mon CV: </p>
                 <p class="downloadbtn">
-                    <a href="">Télécharger</a>
+                    <a href="../download/coulombe_remi_cv.pdf" download>Télécharger</a>
                 </p>
             </p>
         </div>
