@@ -34,7 +34,7 @@ if(file_exists("../settings.php")){include("../settings.php");}
                         <ul class="ul-musique" id="ul-web">
                             <li class="site-web">
                                 <div>
-                                    <img src="../assets/img/projet/timMaisonneuve.jpg" alt="JUCE plugin C++">
+                                    <img src="../assets/img/projet/plugin.jpg" alt="JUCE plugin C++">
                                 </div>
                                 <div class="text-projet">
                                     <h3>Plugin audio C++</h3>
@@ -45,9 +45,14 @@ if(file_exists("../settings.php")){include("../settings.php");}
                                         Pass, Band Pass et High Pass filter.</p>
                                     <br>
                                     <br>
-                                    <p class="downloadbtn">
-                                        <a href="" download>Télécharger</a>
-                                    </p>
+                                    <div class="downlaodBTN">
+                                        <p class="downloadbtn" id="btnDown">
+                                            <a href="" download>VST 64bit</a>
+                                        </p>
+                                        <p class="downloadbtn">
+                                            <a href="" download>.EXE</a>
+                                        </p>
+                                    </div>  
                                 </div>
                             </li>
                         </ul>
@@ -151,43 +156,43 @@ if(file_exists("../settings.php")){include("../settings.php");}
                 <div class="musique-frame">
                     <ul class="ul-musique" id="ul-aff">
                         <li class="affiche">
-                            <a href="../assets/img/projet/affiche_primaire_st-valentin_2018.jpg" class="aff">
-                                <img src="../assets/img/projet/affiche_primaire_st-valentin_2018.jpg" alt="p_st-v_2018">
+                            <a href="<?php echo ROOT_URL; ?>/assets/img/projet/affiche_primaire_st-valentin_2018.jpg" class="aff">
+                                <img src="<?php echo ROOT_URL; ?>/assets/img/projet/affiche_primaire_st-valentin_2018.jpg" alt="p_st-v_2018">
                             </a>
                         </li>
                         <li class="affiche">
-                            <a href="../assets/img/projet/affiche_primaire_st-valentin_2017.jpg" class="aff">
-                                <img src="../assets/img/projet/affiche_primaire_st-valentin_2017.jpg" alt="p_st-v_2017">
+                            <a href="<?php echo ROOT_URL; ?>/assets/img/projet/affiche_primaire_st-valentin_2017.jpg" class="aff">
+                                <img src="<?php echo ROOT_URL; ?>/assets/img/projet/affiche_primaire_st-valentin_2017.jpg" alt="p_st-v_2017">
                             </a>
                         </li>
                         <li class="affiche">
-                            <a href="../assets/img/projet/affiche_seondaire_st-valentin_2016_final.jpg" class="aff">
-                                <img src="../assets/img/projet/affiche_seondaire_st-valentin_2016_final.jpg" alt="s_st-v_2016">
+                            <a href="<?php echo ROOT_URL; ?>/assets/img/projet/affiche_seondaire_st-valentin_2016_final.jpg" class="aff">
+                                <img src="<?php echo ROOT_URL; ?>/assets/img/projet/affiche_seondaire_st-valentin_2016_final.jpg" alt="s_st-v_2016">
                             </a>
                         </li>
                         <li class="affiche">
-                            <a href="../assets/img/projet/affiche_primaire_halloween_2016.jpg" class="aff">
-                                <img src="../assets/img/projet/affiche_primaire_halloween_2016.jpg" alt="p_H_2016">
+                            <a href="<?php echo ROOT_URL; ?>/assets/img/projet/affiche_primaire_halloween_2016.jpg" class="aff">
+                                <img src="<?php echo ROOT_URL; ?>/assets/img/projet/affiche_primaire_halloween_2016.jpg" alt="p_H_2016">
                             </a>
                         </li>
                         <li class="affiche">
-                            <a href="../assets/img/projet/affiche_secondaire_2015.jpg" class="aff">
-                                <img src="../assets/img/projet/affiche_secondaire_2015.jpg" alt="s_2016">
+                            <a href="<?php echo ROOT_URL; ?>/assets/img/projet/affiche_secondaire_2015.jpg" class="aff">
+                                <img src="<?php echo ROOT_URL; ?>/assets/img/projet/affiche_secondaire_2015.jpg" alt="s_2016">
                             </a>
                         </li>
                         <li class="affiche">
-                            <a href="../assets/img/projet/affiche.jpg" class="aff">
-                                <img src="../assets/img/projet/affiche.jpg" alt="3d_2017">
+                            <a href="<?php echo ROOT_URL; ?>/assets/img/projet/affiche.jpg" class="aff">
+                                <img src="<?php echo ROOT_URL; ?>/assets/img/projet/affiche.jpg" alt="3d_2017">
                             </a>
                         </li>
                         <li class="affiche">
-                            <a href="../assets/img/projet/storm.jpg" class="aff">
-                                <img src="../assets/img/projet/storm.jpg" alt="behance 2016">
+                            <a href="<?php echo ROOT_URL; ?>/assets/img/projet/storm.jpg" class="aff">
+                                <img src="<?php echo ROOT_URL; ?>/assets/img/projet/storm.jpg" alt="behance 2016">
                             </a>
                         </li>
                         <li class="affiche">
-                            <a href="../assets/img/projet/corn.jpg" class="aff">
-                                <img src="../assets/img/projet/corn.jpg" alt="behance 2015">
+                            <a href="<?php echo ROOT_URL; ?>/assets/img/projet/corn.jpg" class="aff">
+                                <img src="<?php echo ROOT_URL; ?>/assets/img/projet/corn.jpg" alt="behance 2015">
                             </a>
                         </li>
                     </ul>

@@ -1,7 +1,6 @@
 <header>
     <div  class="containerH">
-        <!-- <a href="/" class="logo">Rémi Coulombe</a> -->
-        <a href="/" class="logo"><img src="<?php echo ROOT_URL; ?>/assets/img/logo.png" alt=""></a>
+        <a href="/" class="logo"><img src="<?php echo ROOT_URL; ?>/assets/img/logo2.png" alt="logo Remi Coulombe"></a>
         <ul class="menu">
             <li><a href="/audio">audio</a></li>
             <li><a href="/projets">autres projets</a></li>
