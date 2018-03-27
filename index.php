@@ -25,7 +25,7 @@ if(file_exists("settings.php")){include("settings.php");}
             </div>
         </section>
         <!-- synth -->
-        <section class="secColor">
+        <section class="secColor" id="secAcc">
             <div class="container" id="canvas-container">
                 <div class="screen" id="canvas-container">
                     <div id="text" onclick="playAudio()">

@@ -41,11 +41,9 @@ if(file_exists("../settings.php")){include("../settings.php");}
                 <br>
                 <br>
                 <br>
-                <p>Voici mon CV: </p>
-                <p class="downloadbtn">
-                    <a href="../download/coulombe_remi-cv.pdf" download>Télécharger</a>
-                </p>
+                <p id="downPropos">Voici mon CV: </p>  
             </p>
+            <p class="downloadbtn" id="downPropos"><a href="../download/coulombe_remi-cv.pdf" download>Télécharger</a></p>
         </div>
     </main>
     <?php include("../blocks/footer.php") ?>

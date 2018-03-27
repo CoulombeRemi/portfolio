@@ -457,9 +457,13 @@ main .container h1 {
 main .container .musique-frame .ul-musique {
 	padding-top: 30px;
 }
+
 /*------------*/
+
 /*Contact*/
+
 /*------------*/
+
 main .container .info-contact {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
@@ -536,9 +540,13 @@ main .container .info-contact li a {
 	display: -ms-flexbox;
 	display: flex;
 }
+
 /*------------*/
+
 /*musique*/
+
 /*------------*/
+
 main .container .musique-frame .ul-musique {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -592,12 +600,12 @@ main .container .musique-frame .ul-musique .tracks img {
 	box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.75);
 	border-radius: 100%;
 	position: absolute;
-right: 0;
-left: 0;
-top: 50%;
-bottom: 0;
-margin: 0 auto;
-transform: translateY(-50%);
+	right: 0;
+	left: 0;
+	top: 50%;
+	bottom: 0;
+	margin: 0 auto;
+	transform: translateY(-50%);
 }
 
 main .container .musique-frame .ul-musique .tracks iframe {
@@ -628,9 +636,13 @@ main .container .musique-frame .ul-musique .coverTune:hover {
 	-webkit-transform: scale(1.05, 1.05);
 	transform: scale(1.05, 1.05);
 }
+
 /*------------*/
+
 /*  AFFICHE  */
+
 /*------------*/
+
 main .container .musique-frame #ul-aff {
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
@@ -690,9 +702,13 @@ main .container .musique-frame .ul-musique .affiche a img:hover {
 	transform: scale(1.05);
 	border-radius: 0;
 }
+
 /*------------*/
+
 /*  VIDEO  */
+
 /*------------*/
+
 main .container .musique-frame .ul-musique .vids {
 	position: relative;
 	padding-bottom: 56.25%;
@@ -728,9 +744,13 @@ main .container .musique-frame .ul-musique .vids:nth-child(1) .vidIframe {
 main .container .musique-frame #ul-video {
 	border-bottom: 1px solid #E8E8E8;
 }
+
 /*------------*/
+
 /* web */
+
 /*------------*/
+
 main .container .musique-frame #ul-web {
 	margin: 0;
 }
@@ -752,8 +772,9 @@ main .container .musique-frame #ul-web .site-web {
 main .container .musique-frame #ul-web .site-web div {
 	width: 100%;
 }
-main .container .musique-frame #ul-web .site-web div img{
-	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.25);
+
+main .container .musique-frame #ul-web .site-web div img {
+	box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
 }
 
 main .container .musique-frame #ul-web .site-web:nth-child(2) {
@@ -790,17 +811,19 @@ main .secColor {
 main .secColor .text-projet {
 	padding-top: 10px;
 }
-main .secColor .text-projet .downlaodBTN{
+
+main .secColor .text-projet .downlaodBTN {
 	display: flex;
 	flex-direction: row;
 }
-main .secColor .text-projet .downlaodBTN #btnDown{
+
+main .secColor .text-projet .downlaodBTN #btnDown {
 	padding-right: 20px;
 }
 
 main #canvas-container {
 	max-width: 100%;
-    overflow: hidden;
+	overflow: hidden;
 }
 
 /*------------------------------------*\
@@ -875,8 +898,8 @@ img.mfp-img {
 
 #text {
 	position: relative;
-    display: block;
-    top: 175px;
+	display: block;
+	top: 175px;
 	left: 50%;
 	font-size: 50px;
 	color: white;
@@ -1057,6 +1080,9 @@ img.mfp-img {
 	main .secColor .text-projet {
 		padding-top: 0;
 	}
+	main #secAcc {
+		height: 512px;
+	}
 	/*------------*/
 	/*contact*/
 	/*------------*/
@@ -1124,6 +1150,10 @@ img.mfp-img {
 	/*------------*/
 	.container .pro-text {
 		width: 80%;
+		padding-left: 20%;
+	}
+	.container #downPropos {
+		padding-left: 20%;
 	}
 }
 
@@ -1145,6 +1175,12 @@ img.mfp-img {
 	}
 	main .container .musique-frame .ul-musique .affiche {
 		height: 430px;
+	}
+	.container .pro-text {
+		padding-left: 0;
+	}
+	.container #downPropos {
+		padding-left: 0;
 	}
 }
 
