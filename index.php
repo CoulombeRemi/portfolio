@@ -1,3 +1,9 @@
+<!-- 
+Rémi Coulombe
+2018
+Techniques intégration multimédia
+remi.foresale 
+-->
 <?php 
 if(file_exists("settings.php")){include("settings.php");}
 ?>
@@ -29,7 +35,7 @@ if(file_exists("settings.php")){include("settings.php");}
                     <canvas id="oscilloscope" width=4000 height=1024 style='
                     width:2000px; 
                     height:512px;
-                    ' </canvas>
+                    '></canvas>
                 </div>
             </div>
         </section>

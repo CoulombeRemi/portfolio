@@ -1,3 +1,7 @@
+// Rémi Coulombe
+// 2018
+// Techniques intégration multimédia
+// remi.foresale 
 window.onload = function () {
 
     // Call pour le Btn

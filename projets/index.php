@@ -1,3 +1,9 @@
+<!-- 
+Rémi Coulombe
+2018
+Techniques intégration multimédia
+remi.foresale 
+-->
 <?php 
 if(file_exists("../settings.php")){include("../settings.php");}
 ?>

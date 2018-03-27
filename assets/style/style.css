@@ -1,6 +1,9 @@
-/*------------------------------------*\
-    Basic reset / initialize
-\*------------------------------------*/
+/*
+Rémi Coulombe
+2018
+Techniques intégration multimédia
+remi.foresale 
+*/
 
 *,
 *:after,
@@ -639,7 +642,7 @@ main .container .musique-frame #ul-aff {
 main .container .musique-frame .ul-musique .affiche {
 	max-width: calc(25% - 17px);
 	margin: 20px;
-	height: 143px;
+	height: 110px;
 	position: relative;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -871,9 +874,9 @@ img.mfp-img {
 /* texte canvas */
 
 #text {
-	position: fixed;
-	display: block;
-	top: 50%;
+	position: relative;
+    display: block;
+    top: 175px;
 	left: 50%;
 	font-size: 50px;
 	color: white;
@@ -984,6 +987,9 @@ img.mfp-img {
 		padding-right: 200px;
 		padding-bottom: 20px;
 		margin-bottom: 20px;
+	}
+	#text {
+		top: 290px;
 	}
 	/*------------*/
 	/*musique*/

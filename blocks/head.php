@@ -1,6 +1,13 @@
+<!-- 
+Rémi Coulombe
+2018
+Techniques intégration multimédia
+remi.foresale 
+-->
 <!--META-->
-<meta charset="utf-8" />
+<meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="author" content="Rémi Coulombe"/>
 <!--LINK-->
 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"/>
 <link rel="stylesheet" type="text/css" href="<?php echo ROOT_URL; ?>/assets/style/reset.css"/>

@@ -1,3 +1,9 @@
+<!-- 
+Rémi Coulombe
+2018
+Techniques intégration multimédia
+remi.foresale 
+-->
 <?php 
 if(file_exists("../settings.php")){include("../settings.php");}
 ?>
@@ -54,6 +60,12 @@ if(file_exists("../settings.php")){include("../settings.php");}
                         <a href="https://www.behance.net/coulombe" target="_blank">
                             <img src="../assets/img/behance.svg" />
                             <!-- <p>Behance</p> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/remi.coulombe" target="_blank">
+                            <img src="../assets/img/facebook.svg" />
+                            <!-- <p>Facebook</p> -->
                         </a>
                     </li>
                 </ul>

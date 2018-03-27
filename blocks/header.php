@@ -1,3 +1,9 @@
+<!-- 
+Rémi Coulombe
+2018
+Techniques intégration multimédia
+remi.foresale 
+-->
 <header>
     <div  class="containerH">
         <a href="/" class="logo"><img src="<?php echo ROOT_URL; ?>/assets/img/logo2.png" alt="logo Remi Coulombe"></a>

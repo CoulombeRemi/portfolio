@@ -1,3 +1,9 @@
+<!-- 
+Rémi Coulombe
+2018
+Techniques intégration multimédia
+remi.foresale 
+-->
 <footer>
     <div  class="container" id="footer">
         <div class="info-contact">
@@ -45,6 +51,11 @@
                 <li>
                     <a href="https://www.behance.net/coulombe" target="_blank">   
                         <p>Behance</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/remi.coulombe" target="_blank">   
+                        <p>Facebook</p>
                     </a>
                 </li>
             </ul>
